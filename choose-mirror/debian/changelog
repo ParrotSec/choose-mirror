@@ -1,3 +1,9 @@
+choose-mirror (2.80+parrot0) testing; urgency=medium
+
+  * add TUNA repository
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sun, 28 Aug 2016 18:16:42 +0200
+
 choose-mirror (2.69+parrot1) testing; urgency=medium
 
   * remove oldstable flavour

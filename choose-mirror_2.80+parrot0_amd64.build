@@ -1,0 +1,209 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: info: source package choose-mirror
+dpkg-buildpackage: info: source version 2.80+parrot0
+dpkg-buildpackage: info: source distribution testing
+dpkg-buildpackage: info: source changed by Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+ dpkg-source --before-build choose-mirror
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   debian/rules override_dh_auto_clean
+make[1]: ingresso nella directory "/home/palinuro/Desktop/repo/choose-mirror/choose-mirror"
+rm -rf debian/locales debian/sort-tmp
+/usr/bin/make clean check-masterlist
+make[2]: ingresso nella directory "/home/palinuro/Desktop/repo/choose-mirror/choose-mirror"
+rm -f choose-mirror choose-mirror.o *~ mirrors_*.h
+rm -f debian/templates-countries debian/httplist-countries debian/httpslist-countries debian/ftplist-countries
+rm -f demo demo.templates
+rm -rf debian/iso-codes/ debian/pobuild*/
+rm -f debian/iso_3166.tab
+make[2]: uscita dalla directory "/home/palinuro/Desktop/repo/choose-mirror/choose-mirror"
+make[1]: uscita dalla directory "/home/palinuro/Desktop/repo/choose-mirror/choose-mirror"
+   dh_clean
+ dpkg-source -b choose-mirror
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building choose-mirror in choose-mirror_2.80+parrot0.tar.xz
+dpkg-source: warning: missing information for output field Standards-Version
+dpkg-source: info: building choose-mirror in choose-mirror_2.80+parrot0.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_update_autotools_config
+   dh_auto_configure
+   debian/rules override_dh_auto_build
+make[1]: ingresso nella directory "/home/palinuro/Desktop/repo/choose-mirror/choose-mirror"
+# Don't try to sync the mirror masterlist during the build:
+/usr/bin/make small  ONLINE=n
+make[2]: ingresso nella directory "/home/palinuro/Desktop/repo/choose-mirror/choose-mirror"
+rm -f choose-mirror choose-mirror.o *~ mirrors_*.h
+rm -f debian/templates-countries debian/httplist-countries debian/httpslist-countries debian/ftplist-countries
+rm -f demo demo.templates
+rm -rf debian/iso-codes/ debian/pobuild*/
+rm -f debian/iso_3166.tab
+if [ "$ONLINE" != n ]; then \
+	if wget -nv 'https://anonscm.debian.org/viewvc/webwml/webwml/english/mirror/Mirrors.masterlist?revision=HEAD' -O - > Mirrors.masterlist.new && \
+	   test -s Mirrors.masterlist.new; then \
+        		mv Mirrors.masterlist.new Mirrors.masterlist; \
+	else \
+		rm -f Mirrors.masterlist.new; \
+	fi; \
+fi
+isoquery -c | cut -f 1,4 | sort >debian/iso_3166.tab
+if [ "$USE_HTTP" ]; then ./mirrorlist http Mirrors.masterlist debian/iso_3166.tab; fi
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CC}/ at ./mirrorlist line 65.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CC}/ at ./mirrorlist line 70.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE UCC}/ at ./mirrorlist line 71.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CNAME}/ at ./mirrorlist line 72.
+if [ "$USE_HTTPS" ]; then ./mirrorlist https Mirrors.masterlist debian/iso_3166.tab; fi
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CC}/ at ./mirrorlist line 65.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CC}/ at ./mirrorlist line 70.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE UCC}/ at ./mirrorlist line 71.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CNAME}/ at ./mirrorlist line 72.
+if [ "$USE_FTP" ]; then ./mirrorlist ftp Mirrors.masterlist debian/iso_3166.tab; fi
+cc -Os -Wall -g -D_GNU_SOURCE -DARCH_TEXT='"amd64"' -DWITH_HTTP -DWITH_HTTPS -DWITH_FTP_MANUAL -Os -fomit-frame-pointer -DSMALL -Wdate-time -D_FORTIFY_SOURCE=2  -c -o choose-mirror.o choose-mirror.c
+cc -o choose-mirror choose-mirror.o -ldebconfclient -ldebian-installer -Wl,-z,relro
+strip --remove-section=.comment --remove-section=.note choose-mirror
+./mirrorlist httplist Mirrors.masterlist debian/iso_3166.tab
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CC}/ at ./mirrorlist line 65.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CC}/ at ./mirrorlist line 70.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE UCC}/ at ./mirrorlist line 71.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CNAME}/ at ./mirrorlist line 72.
+./mirrorlist httpslist Mirrors.masterlist debian/iso_3166.tab
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CC}/ at ./mirrorlist line 65.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CC}/ at ./mirrorlist line 70.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE UCC}/ at ./mirrorlist line 71.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CNAME}/ at ./mirrorlist line 72.
+./mirrorlist ftplist Mirrors.masterlist debian/iso_3166.tab
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CC}/ at ./mirrorlist line 65.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CC}/ at ./mirrorlist line 70.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE UCC}/ at ./mirrorlist line 71.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE CNAME}/ at ./mirrorlist line 72.
+# Grab ISO codes from iso-codes package
+./get-iso-codes
+# Build the templates
+./mktemplates debian/choose-mirror-bin.templates-in debian/choose-mirror-bin.templates.http-in debian/choose-mirror-bin.templates.https-in debian/choose-mirror-bin.templates.ftp.base-in debian/choose-mirror-bin.templates.both-in
+Creating the list of countries for HTTP mirrors... Done.
+Creating the list of countries for HTTPS mirrors... Done.
+Creating the list of countries for FTP mirrors... Done.
+Insert the lists of choices into the templates file... Done.
+Include country names translations into the templates file:
+  am... done
+  ar... done
+  ast... done
+  be... done
+  bg... done
+  bn... done
+  bo... done
+  bs... done
+  ca... done
+  cs... done
+  cy... done
+  da... done
+  de... done
+  dz... done
+  el... done
+  eo... done
+  es... done
+  et... done
+  eu... done
+  fa... done
+  fi... done
+  fr... done
+  ga... done
+  gl... done
+  gu... done
+  he... done
+  hi... done
+  hr... done
+  hu... done
+  id... done
+  is... done
+  it... done
+  ja... done
+  ka... done
+  kk... done
+  km... done
+  kn... done
+  ko... done
+  ku... done
+  lo... done
+  lt... done
+  lv... done
+  mk... done
+  ml... done
+  mr... done
+  nb... done
+  ne... done
+  nl... done
+  nn... done
+  pa... done
+  pl... done
+  pt_BR... done
+  pt... done
+  ro... done
+  ru... done
+  se... done
+  si... done
+  sk... done
+  sl... done
+  sq... done
+  sr... done
+  sv... done
+  ta... done
+  te... done
+  tg... done
+  th... done
+  tl... done
+  tr... done
+  ug... done
+  uk... done
+  vi... done
+  zh_CN... done
+  zh_TW... done
+ls -l choose-mirror
+-rwxr-xr-x 1 palinuro palinuro 23592 ago 28 18:18 choose-mirror
+make[2]: uscita dalla directory "/home/palinuro/Desktop/repo/choose-mirror/choose-mirror"
+make[1]: uscita dalla directory "/home/palinuro/Desktop/repo/choose-mirror/choose-mirror"
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   debian/rules override_dh_installdebconf
+make[1]: ingresso nella directory "/home/palinuro/Desktop/repo/choose-mirror/choose-mirror"
+dh_installdebconf
+# Sort mirror countries (including translations)
+# MUST be after dh_installdebconf
+./sort-templates
+Sorting template 'mirror/http/countries'...
+W: language 'no' skipped: no UTF-8 variant found
+make[1]: uscita dalla directory "/home/palinuro/Desktop/repo/choose-mirror/choose-mirror"
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'choose-mirror' in 'debian/.debhelper/scratch-space/build-choose-mirror/choose-mirror_2.80+parrot0_all.deb'.
+	Renaming choose-mirror_2.80+parrot0_all.deb to choose-mirror_2.80+parrot0_all.udeb
+dpkg-deb: building package 'choose-mirror-bin' in 'debian/.debhelper/scratch-space/build-choose-mirror-bin/choose-mirror-bin_2.80+parrot0_amd64.deb'.
+	Renaming choose-mirror-bin_2.80+parrot0_amd64.deb to choose-mirror-bin_2.80+parrot0_amd64.udeb
+ dpkg-genchanges  >../choose-mirror_2.80+parrot0_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build choose-mirror
+dpkg-buildpackage: info: source-only upload: Debian-native package
+Now running lintian...
+W: choose-mirror source: changelog-should-mention-nmu
+W: choose-mirror source: source-nmu-has-incorrect-version-number 2.80+parrot0
+Finished running lintian.

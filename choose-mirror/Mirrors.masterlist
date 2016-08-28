@@ -217,6 +217,14 @@ Archive-http: /parrot/
 Country: CN China
 IPv6: yes
 
+Site: mirrors.tuna.tsinghua.edu.cn
+Archive-upstream: mirrors.tuna.tsinghua.edu.cn
+Type: leaf
+Archive-architecture: amd64 armhf i386
+Archive-http: /parrot/
+Country: CN China
+IPv6: yes
+
 
 
 
