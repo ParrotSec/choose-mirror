@@ -1,3 +1,13 @@
+choose-mirror (2.81+parrot0) testing; urgency=medium
+
+  * Update mirrors list
+  * Add original domains for mirrors with a parrotsec.org subdomain
+  * Add babylon.network nl/fr and UOC
+  * Remove MTU mirror
+  * Remove Aptus mirror
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 29 Dec 2016 16:16:51 +0100
+
 choose-mirror (2.80+parrot0) testing; urgency=medium
 
   * add TUNA repository
