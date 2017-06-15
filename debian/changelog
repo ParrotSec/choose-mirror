@@ -1,3 +1,10 @@
+choose-mirror (2.82+parrot0) testing; urgency=medium
+
+  * Update mirrors list
+  * Add mirror director to every country
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 15 Jun 2017 16:43:01 +0200
+
 choose-mirror (2.81+parrot0) testing; urgency=medium
 
   * Update mirrors list
