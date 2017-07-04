@@ -3,7 +3,7 @@ Type: Push-Primary
 Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: parrot-euro.archive.parrotsec.org
+Archive-upstream: archive.parrotsec.org
 Country: FR France
 IPv6: no
 
@@ -11,10 +11,10 @@ IPv6: no
 
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: US United States
@@ -62,10 +62,10 @@ IPv6: yes
 
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: EC Ecuador
@@ -122,10 +122,10 @@ IPv6: no
 
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: IT Italy
@@ -213,10 +213,10 @@ IPv6: yes
 
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: FR France
@@ -247,10 +247,10 @@ Country: FR France
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: DE Germany
@@ -289,20 +289,20 @@ Country: DE Germany
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: GB United Kingdom
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: BE Belgium
@@ -317,10 +317,10 @@ Country: BE Belgium
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: PT Portugal
@@ -335,10 +335,10 @@ Country: PT Portugal
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: ES Spain
@@ -353,10 +353,10 @@ Country: ES Spain
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: DK Denmark
@@ -371,10 +371,10 @@ Country: DK Denmark
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: NL Netherlands
@@ -405,10 +405,10 @@ Country: NL Netherlands
 IPv6: yes
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: PL Poland
@@ -431,10 +431,10 @@ Country: PL Poland
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: SE Sweden
@@ -457,10 +457,10 @@ Country: SE Sweden
 IPv6: yes
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: IE Ireland
@@ -475,10 +475,10 @@ Country: IE Ireland
 IPv6: yes
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: GR Greece
@@ -493,10 +493,10 @@ Country: GR Greece
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: RU Russian Federation
@@ -511,10 +511,10 @@ Country: RU Russian Federation
 IPv6: yes
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: UZ Uzbekistan
@@ -529,10 +529,10 @@ Country: UZ Uzbekistan
 IPv6: yes
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: BD Bangladesh
@@ -547,10 +547,10 @@ Country: BD Bangladesh
 IPv6: yes
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: TW Taiwan
@@ -565,10 +565,10 @@ Country: TW Taiwan
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: SG Singapore
@@ -583,10 +583,10 @@ Country: SG Singapore
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: TH Thailand
@@ -601,10 +601,10 @@ Country: TH Thailand
 IPv6: no
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: CN China
@@ -627,10 +627,10 @@ Country: CN China
 IPv6: yes
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: IR Iran, Islamic Republic of
@@ -645,10 +645,10 @@ Country: IR Iran, Islamic Republic of
 IPv6: yes
 
 
-Site: mirrordirector.archive.parrotsec.org
+Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.archive.parrotsec.org
+Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: NC New Caledonia

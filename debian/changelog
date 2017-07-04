@@ -1,3 +1,9 @@
+choose-mirror (2.82+parrot1) testing; urgency=medium
+
+  * Update mirror redirector
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 04 Jul 2017 11:57:44 +0200
+
 choose-mirror (2.82+parrot0) testing; urgency=medium
 
   * Update mirrors list
