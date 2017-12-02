@@ -19,28 +19,28 @@
 # Gediminas Paulauskas <menesis@delfi.lt>, 2000-2001.
 # Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
 # Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004, 2006, 2008, 2009, 2010.
-# Rimas Kudelis <rq@akl.lt>, 2012.
+# Rimas Kudelis <rq@akl.lt>, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2012-05-27 19:07+0300\n"
+"PO-Revision-Date: 2017-11-26 20:23+0000\n"
 "Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Debian version to install:"
-msgstr "Debian'o versija diegimui:"
+msgstr "„Debian“ versija diegimui:"
 
 #. Type: select
 #. Description
@@ -52,24 +52,24 @@ msgid ""
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian'as gyvuoja keliomis versijomis (ar šakomis). Stabili - gerai "
-"ištestuota ir retai besikeičianti. Nestabili - neištestuota ir tankiai "
-"besikeičianti. Testuojama - tai tarpinė šaka, į kurią patenka daugelis naujų "
-"versijų paketų iš nestabilios šakos, jei juose nėra aiškių klaidų."
+"Egzistuoja kelios „Debian“ versijomis (ar šakomis). Stabili – gerai "
+"ištestuota ir retai besikeičianti. Nestabili – neištestuota ir tankiai "
+"besikeičianti. Testuojama – tai tarpinė šaka, į kurią patenka daugelis naujų "
+"versijų paketų iš nestabilios šakos, jei juose nėra akivaizdžių klaidų."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Only flavors available on the selected mirror are listed."
-msgstr "Pasirinktame „veidrodyje“ tik esamos jame versijos yra nurodytos."
+msgstr "Nurodytos tik pasirinktame paketų archyvo serveryje esamos versijos."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
 msgid "Checking the Debian archive mirror"
-msgstr "Tikrinamas Debian'o archyvo \"veidrodis\""
+msgstr "Tikrinamas „Debian“ paketų archyvo serveris"
 
 #. Type: text
 #. Description
@@ -83,7 +83,7 @@ msgstr "Release failo atsisiuntimas..."
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid "Go back and try a different mirror?"
-msgstr "Ar grįžti atgal ir bandyti kitą „veidrodį“?"
+msgstr "Ar grįžti atgal ir bandyti kitą paketų archyvo serverį?"
 
 #. Type: boolean
 #. Description
@@ -95,17 +95,17 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Nurodytos (numatytosios) Debian versijos (${RELEASE}) nėra pasirinktame "
-"„veidrodyje“. Galima tęsti ir pasirinkite kitą distributyvo laidą įdiegimui, "
-"bet paprastai Jūs turėtumėte grįžti atgal ir pasirinkti kitą ,veidrodį“, "
-"kuriame yra teisinga versija."
+"Nurodytos (numatytosios) „Debian“ versijos (${RELEASE}) nėra pasirinktame "
+"paketų archyvo serveryje. Galima tęsti ir pasirinkti kitą distributyvo laidą "
+"įdiegimui, bet paprastai Jūs turėtumėte grįžti atgal ir pasirinkti kitą "
+"paketų archyvo serverį, kuriame yra reikiama versija."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Blogas archyvo \"veidrodis\""
+msgstr "Blogas paketų archyvo serveris"
 
 #. Type: error
 #. Description
@@ -115,7 +115,8 @@ msgid ""
 "An error has been detected while trying to use the specified Debian archive "
 "mirror."
 msgstr ""
-"Buvo aptikta klaida, bandant naudoti nurodytą Debian'o archyvo „veidrodi“."
+"Buvo aptikta klaida, bandant naudoti nurodytą „Debian“ paketų archyvo "
+"serverį."
 
 #. Type: error
 #. Description
@@ -127,10 +128,10 @@ msgid ""
 "broken (for example because an invalid Release file was found); mirror does "
 "not support the correct Debian version."
 msgstr ""
-"Galimos klaidos priežastys: nurodytas neteisingas „veidrodis“; „veidrodis“ "
-"neprieinamas (galbūt dėl nepatikimo tinklo ryšio); „veidrodis“ sugadintas "
-"(nes, pavyzdžiui, rastas neteisingas Release failas); „veidrodyje“ nėra "
-"reikiamos Debian versijos."
+"Galimos klaidos priežastys: nurodytas neteisingas serveris; serveris "
+"neprieinamas (galbūt dėl nepatikimo tinklo ryšio); serveris sugadintas (nes, "
+"pavyzdžiui, rastas neteisingas „Release“ failas); serveryje nėra reikiamos "
+"„Debian“ versijos."
 
 #. Type: error
 #. Description
@@ -148,7 +149,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
-msgstr "Patikrinkite nurodytąjį veidrodis arba bandykite kitą."
+msgstr "Patikrinkite nurodytą serverį arba bandykite kitą."
 
 #. Type: error
 #. Description
@@ -202,7 +203,7 @@ msgstr "nestabili"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Debian archive"
-msgstr "Debian'o archyvo \"veidrodžio\" pasirinkimas"
+msgstr "„Debian“ paketų archyvo serverio pasirinkimas"
 
 #. Type: select
 #. Choices
@@ -241,7 +242,7 @@ msgstr "LT"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Debian archive mirror country:"
-msgstr "Debian'o archyvo \"veidrodžio\" šalis:"
+msgstr "„Debian“ paketų archyvo serverio šalis:"
 
 #. Type: select
 #. Description
@@ -256,9 +257,9 @@ msgid ""
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Tikslas - rasti tinkle Debian'o archyvo \"veidrodį\", esantį arti Jūsų -- "
-"bet žinokite, kad artimiausia ar net Jūsų šalis gali ir nebūti geriausias "
-"pasirinkimas."
+"Šio žingsnio tikslas – parinkti „Debian“ paketų archyvo serverį, tinkle "
+"esantį arti Jūsų. Turėkite omenyje, jog artimiausia ar net Jūsų šalis "
+"nebūtinai yra geriausias pasirinkimas."
 
 #. Type: select
 #. Description
@@ -269,7 +270,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Debian archive mirror:"
-msgstr "Debian'o archyvo \"veidrodis\":"
+msgstr "„Debian“ paketų archyvo serveris:"
 
 #. Type: select
 #. Description
@@ -284,9 +285,9 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Pasirinkite Debian'o archyvo \"veidrodį\". Jei nežinote, su kuriuo "
-"\"veidrodžiu\" geriausias interneto ryšys, pasirinkite \"veidrodį\" savo "
-"šalyje arba regione."
+"Pasirinkite „Debian“ paketų archyvo serverį. Jei nežinote, su kuriuo "
+"serveriu Jūsų interneto ryšys geriausias, pasirinkite jį savo šalyje arba "
+"regione."
 
 #. Type: select
 #. Description
@@ -308,7 +309,7 @@ msgstr "Paprastai, ftp.<jūsų šalies kodas>.debian.org yra geras pasirinkimas.
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid "Debian archive mirror hostname:"
-msgstr "Debian'o archyvo \"veidrodžio\" kompiuterio vardas (hostname):"
+msgstr "„Debian“ paketų archyvo serverio vardas (hostname):"
 
 #. Type: string
 #. Description
@@ -321,8 +322,8 @@ msgstr "Debian'o archyvo \"veidrodžio\" kompiuterio vardas (hostname):"
 msgid ""
 "Please enter the hostname of the mirror from which Debian will be downloaded."
 msgstr ""
-"Įveskite \"veidrodžio\", iš kurio bus atsisiunčiamas Debian'as, kompiuterio "
-"vardą (hostname)."
+"Įveskite serverio, iš kurio bus atsisiunčiami „Debian“ paketai, vardą "
+"(hostname)."
 
 #. Type: string
 #. Description
@@ -345,7 +346,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid "Debian archive mirror directory:"
-msgstr "„Debian“ archyvo „veidrodžio“ aplankas:"
+msgstr "„Debian“ paketų archyvo serverio aplankas:"
 
 #. Type: string
 #. Description
@@ -355,7 +356,7 @@ msgstr "„Debian“ archyvo „veidrodžio“ aplankas:"
 msgid ""
 "Please enter the directory in which the mirror of the Debian archive is "
 "located."
-msgstr "Įveskite aplanko, kuriame yra „Debian“ archyvo „veidrodis“, kelią."
+msgstr "Įveskite aplanko, kuriame yra „Debian“ paketų archyvo kopija, kelią."
 
 #. Type: string
 #. Description
@@ -387,8 +388,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Tarpinės stoties (proxy) informacija turi būti pateikta standartiniu formatu "
-"- \"http://[[user][:pass]@]host[:port]/\"."
+"Tarpinės stoties (proxy) informacija turi būti pateikta standartiniu "
+"formatu: „http://[[user][:pass]@]host[:port]/“."
 
 #. Type: string
 #. Description

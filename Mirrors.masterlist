@@ -36,14 +36,6 @@ Archive-http: /parrot/
 Country: US United States
 IPv6: no
 
-Site: mirror.jmu.edu
-Archive-upstream:  mirror.jmu.edu
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /pub/parrot/
-Country: US United States
-IPv6: no
-
 Site: mirror.clarkson.edu
 Archive-upstream: mirror.clarkson.edu
 Type: leaf

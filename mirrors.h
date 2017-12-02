@@ -30,7 +30,8 @@ static const char suites[][SUITE_LENGTH] = {
 	/* higher preference */
 	"parrot",
 	"stable",
-	"testing"
+	"testing",
+	"unstable"
 	/* lower preference */
 };
 
