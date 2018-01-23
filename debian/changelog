@@ -1,3 +1,11 @@
+choose-mirror (2.88+parrot1) testing; urgency=medium
+
+  * Add turhish mirror.
+  * Add italian legolas mirror.
+  * Increment version to override debian version.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 23 Jan 2018 20:04:52 +0100
+
 choose-mirror (2.85) unstable; urgency=medium
 
   * Update Mirrors.masterlist

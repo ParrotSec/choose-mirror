@@ -203,6 +203,14 @@ Location: Catania
 Sponsor: GARR/CILEA http://mirror.garr.it/
 IPv6: yes
 
+Site: italy.archive.parrotsec.org
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-ftp: /parrot/
+Archive-http: /parrot/
+Archive-rsync:  parrot/
+Country: IT Italy
+
 
 
 Site: mirrordirector.parrotsec.org
@@ -229,14 +237,6 @@ Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/ 
 Country: FR France
 IPv6: yes
-
-Site: dasa1-euro.archive.parrotsec.org
-Archive-upstream: dasa1-euro.archive.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Country: FR France
-IPv6: no
 
 
 Site: mirrordirector.parrotsec.org
@@ -482,6 +482,23 @@ Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/linux/parrot/
 Country: GR Greece
+IPv6: no
+
+Site: mirrordirector.parrotsec.org
+Archive-http: /parrot/
+Archive-rsync: parrot/
+Archive-upstream: mirrordirector.parrotsec.org
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Country: GR Greece
+IPv6: no
+
+Site: turkey.archive.parrotsec.org
+Archive-upstream: turkey.archive.parrotsec.org
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Country: TR Turkey
 IPv6: no
 
 
