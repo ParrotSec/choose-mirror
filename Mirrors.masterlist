@@ -501,6 +501,23 @@ Archive-http: /parrot/
 Country: TR Turkey
 IPv6: no
 
+Site: mirrordirector.parrotsec.org
+Archive-http: /parrot/
+Archive-rsync: parrot/
+Archive-upstream: mirrordirector.parrotsec.org
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Country: UA Ukraine
+IPv6: no
+
+Site: parrotsec.volia.net
+Archive-upstream: parrotsec.volia.net
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /
+Country: UA Ukraine
+IPv6: no
+
 
 Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
