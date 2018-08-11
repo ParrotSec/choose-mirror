@@ -234,7 +234,7 @@ Site: fr.mirror.babylon.network
 Archive-upstream: fr.mirror.babylon.network
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/ 
+Archive-http: /parrot/
 Country: FR France
 IPv6: yes
 
@@ -376,7 +376,7 @@ Site: nluug-euro.archive.parrotsec.org
 Archive-upstream: nluug-euro.archive.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /os/Linux/distr/parrot/ 
+Archive-http: /os/Linux/distr/parrot/
 Country: NL Netherlands
 IPv6: yes
 
@@ -384,7 +384,7 @@ Site: ftp.nluug.nl
 Archive-upstream: ftp.nluug.nl
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /os/Linux/distr/parrot/ 
+Archive-http: /os/Linux/distr/parrot/
 Country: NL Netherlands
 IPv6: yes
 
@@ -392,7 +392,7 @@ Site: nl.mirror.babylon.network
 Archive-upstream: nl.mirror.babylon.network
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/ 
+Archive-http: /parrot/
 Country: NL Netherlands
 IPv6: yes
 
@@ -535,6 +535,14 @@ Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/parrot/
 Country: RU Russian Federation
 IPv6: yes
+
+Site: mirror.truenetwork.ru
+Archive-upstream: mirror.truenetwork.ru
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Country: RU Russian Federation
+IPv6: no
 
 
 Site: mirrordirector.parrotsec.org
