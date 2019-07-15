@@ -9,16 +9,19 @@
 # Jean Christophe André <progfou@gmail.com>
 # Vũ Quang Trung <vu.quang.trung@auf.org>
 # Trịnh Minh Thành <tmthanh@yahoo.com>
+# Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
+# Hai-Nam Nguyen <hainam@jcisio.com>, 2012
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer Level 1\n"
+"Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2010-09-28 18:01+0930\n"
-"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
-"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2019-02-27 14:34+0700\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,11 +46,11 @@ msgid ""
 "buggy."
 msgstr ""
 "Hệ thống Debian có sẵn vài kiểu khác nhau :\n"
-" • ổn định (stable)\n"
+" * ổn định (stable)\n"
 "\tphiên bản này được thử ra khá, thay đổi rất ít lần.\n"
-" • bất định (unstable)\n"
+" * bất định (unstable)\n"
 "\tphiên bản này chưa được thử ra, thay đổi luôn.\n"
-" • thử ra (testing)\n"
+" * thử ra (testing)\n"
 "\tphiên bản này nằm giữa hai phiên bản khác: nó nhận nhiều trình mới từ "
 "phiên bản bất định, nếu trình mới không có nhiều lỗi còn lại."
 
@@ -56,28 +59,28 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Only flavors available on the selected mirror are listed."
-msgstr "Chỉ liệt kê những kiểu sẵn sàng trên máy nhân bản được chọn."
+msgstr "Chỉ liệt kê những kiểu sẵn sàng trên máy bản sao được chọn."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
 msgid "Checking the Debian archive mirror"
-msgstr "Đang kiểm tra nhân bản kho Debian"
+msgstr "Đang kiểm tra máy bản sao kho Debian"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "Đang tải về các tập tin Release..."
+msgstr "Đang tải về các tập tin Release…"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid "Go back and try a different mirror?"
-msgstr "Lùi lại để thử một máy nhân bản khác ?"
+msgstr "Lùi lại để thử một máy bản sao khác ?"
 
 #. Type: boolean
 #. Description
@@ -90,8 +93,8 @@ msgid ""
 "different mirror that does support the correct version."
 msgstr ""
 "Phiên bản Debian (mặc định) được xác định (${RELEASE}) không phải sẵn sàng "
-"trên máy nhân bản được chọn. Vẫn có thể tiếp tục và chọn một bản phát hành "
-"khác, nhưng mà bình thường có nên lùi lại để chọn một máy nhân bản khác có "
+"trên máy bản sao được chọn. Vẫn có thể tiếp tục và chọn một bản phát hành "
+"khác, nhưng mà bình thường có nên lùi lại để chọn một máy bản sao khác có "
 "phải hỗ trợ phiên bản đúng."
 
 #. Type: error
@@ -99,7 +102,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Nhân bản kho sai"
+msgstr "Kho nhân bản sai"
 
 #. Type: error
 #. Description
@@ -109,7 +112,7 @@ msgid ""
 "An error has been detected while trying to use the specified Debian archive "
 "mirror."
 msgstr ""
-"Gặp lỗi trong khi cố gắng sử dụng máy nhân bản kho Debian được xác định."
+"Gặp lỗi trong khi cố gắng sử dụng máy kho bản sao Debian được xác định."
 
 #. Type: error
 #. Description
@@ -121,9 +124,9 @@ msgid ""
 "broken (for example because an invalid Release file was found); mirror does "
 "not support the correct Debian version."
 msgstr ""
-"Lý do có thể gặp lỗi: sai xác định máy nhân bản; máy nhân bản hiện thời "
-"không sẵn sàng (không kết nối ổn định đến mạng ?); máy nhân bản bị hỏng (gặp "
-"tập tin Release sai ?); máy nhân bản không hỗ trợ phiên bản Debian đúng."
+"Lý do có thể gặp lỗi: sai xác định máy bản sao; máy bản sao hiện tại không "
+"sẵn sàng (không kết nối ổn định đến mạng ?); máy bản sao bị hỏng (gặp tập "
+"tin Release sai ?); máy bản sao không hỗ trợ phiên bản Debian đúng."
 
 #. Type: error
 #. Description
@@ -133,7 +136,7 @@ msgid ""
 "Additional details may be available in /var/log/syslog or on virtual console "
 "4."
 msgstr ""
-"Xem thêm chi tiết (nếu có) trong « /var/log/syslog » hoặc trên bàn giao tiếp "
+"Xem thêm chi tiết (nếu có) trong “/var/log/syslog” hoặc trên bàn giao tiếp "
 "ảo 4."
 
 #. Type: error
@@ -142,7 +145,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
 msgstr ""
-"Hãy kiểm tra lại máy nhân bản được xác định, hoặc thử sử dụng một máy khác."
+"Hãy kiểm tra lại máy bản sao được xác định, hoặc thử sử dụng một máy khác."
 
 #. Type: error
 #. Description
@@ -159,7 +162,7 @@ msgid ""
 "The specified Debian archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Máy nhân bản kho Debian đã chọn có vẻ không hỗ trợ kiến trúc của máy tính "
+"Máy bản sao kho Debian đã chọn có vẻ không hỗ trợ kiến trúc của máy tính "
 "này. Hãy thử nhân bản khác."
 
 #. Type: text
@@ -181,14 +184,14 @@ msgstr "ổn định"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:12001
 msgid "testing"
-msgstr "thử ra"
+msgstr "thử nghiệm"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:13001
 msgid "unstable"
-msgstr "bất định"
+msgstr "chưa ổn định"
 
 #. Type: text
 #. Description
@@ -196,7 +199,7 @@ msgstr "bất định"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Debian archive"
-msgstr "Chọn một nhân bản kho Debian"
+msgstr "Chọn một máy bản sao kho Debian"
 
 # [NOTE] Translate the ISO country codes below into localised country names.
 #. Type: select
@@ -206,6 +209,7 @@ msgstr "Chọn một nhân bản kho Debian"
 msgid "enter information manually"
 msgstr "nhập thông tin bằng tay"
 
+# <https://salsa.debian.org/mirror-team/masterlist/blob/master/Mirrors.masterlist>
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
@@ -225,7 +229,7 @@ msgstr "nhập thông tin bằng tay"
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:2002
 msgid "US[ Default value for http]"
-msgstr "JP"
+msgstr "VN"
 
 #. Type: select
 #. Description
@@ -236,7 +240,7 @@ msgstr "JP"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Debian archive mirror country:"
-msgstr "Quốc gia nhân bản kho Debian:"
+msgstr "Quốc gia đặt máy bản sao kho Debian:"
 
 #. Type: select
 #. Description
@@ -251,7 +255,7 @@ msgid ""
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Mục đích là tìm máy nhân bản kho Debian ở gần chỗ bạn trên mạng. Chú ý rằng "
+"Mục đích là tìm máy bản sao kho Debian ở gần chỗ bạn trên mạng. Chú ý rằng "
 "những quốc gia gần hơn, ngay cả quốc gia bạn, có thể không phải là sự chọn "
 "tốt nhất."
 
@@ -279,23 +283,16 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Hãy chọn một máy nhân bản kho Debian. Bạn nên sử dụng máy nhân bản trong "
-"quốc gia hay miền gần nhất, nếu bạn chưa biết máy nhân bản nào có đường dẫn "
-"Mạng tốt nhất đến chỗ bạn."
+"Hãy chọn một máy bản sao kho Debian. Bạn nên sử dụng máy bản sao trong quốc "
+"gia hay miền gần nhất, nếu bạn chưa biết máy bản sao nào có đường dẫn Mạng "
+"tốt nhất đến chỗ bạn."
 
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr ""
-"Bình thường, <ftp.[mã quốc gia gần nhất].debian.org> là lựa chọn tốt.\n"
-"v.d. <ftp.jp.debian.org> hay <ftp.hk.debian.org>\n"
-"Danh sách các máy nhận bản Debian: <http://www.debian.org/mirror/list>."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "Bình thường, <deb.debian.org> là lựa chọn tốt."
 
 #. Type: string
 #. Description
@@ -306,7 +303,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid "Debian archive mirror hostname:"
-msgstr "Tên máy nhân bản kho Debian:"
+msgstr "Tên máy bản sao kho Debian:"
 
 #. Type: string
 #. Description
@@ -318,7 +315,7 @@ msgstr "Tên máy nhân bản kho Debian:"
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
 "Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "Hãy nhập tên máy của máy nhân bản xuống đó cần tải Debian."
+msgstr "Hãy nhập tên máy của máy bản sao nơi mà sẽ tải Debian từ đó."
 
 #. Type: string
 #. Description
@@ -331,7 +328,7 @@ msgstr "Hãy nhập tên máy của máy nhân bản xuống đó cần tải De
 msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
-msgstr "Có thể ghi rõ một cổng xen kẽ có dạng chuẩn: [tên_máy]:[cổng] "
+msgstr "Có thể ghi rõ một cổng xen kẽ có dạng chuẩn: [tên_máy]:[cổng]"
 
 #. Type: string
 #. Description
@@ -339,7 +336,7 @@ msgstr "Có thể ghi rõ một cổng xen kẽ có dạng chuẩn: [tên_máy]:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid "Debian archive mirror directory:"
-msgstr "Thư mục nhân bản kho Debian:"
+msgstr "Thư mục kho bản sao Debian:"
 
 #. Type: string
 #. Description
@@ -349,14 +346,14 @@ msgstr "Thư mục nhân bản kho Debian:"
 msgid ""
 "Please enter the directory in which the mirror of the Debian archive is "
 "located."
-msgstr "Hãy nhập thư mục chứa nhân bản kho Debian."
+msgstr "Hãy nhập thư mục chứa kho bản sao Debian."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "Thông tin ủy nhiệm HTTP (bỏ rỗng nếu không có):"
+msgstr "Thông tin ủy nhiệm HTTP (để trống nếu không có):"
 
 #. Type: string
 #. Description
@@ -381,8 +378,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Hãy nhập thông tin ủy nhiệm có dạng chuẩn: <http://[[người_dùng][:mật_khẩu]@]"
-"máy[:cổng]/>."
+"Hãy nhập thông tin ủy nhiệm có dạng chuẩn: <http://[[người_dùng][:"
+"mật_khẩu]@]máy[:cổng]/>."
 
 #. Type: string
 #. Description
@@ -426,9 +423,19 @@ msgstr "JP"
 #. Type: select
 #. Description
 #. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr ""
+"Bình thường, <ftp.<mã quốc gia của bạn>.debian.org> là lựa chọn tốt.\n"
+"v.d. <ftp.jp.debian.org> hay <ftp.hk.debian.org>\n"
+"Danh sách các máy bản sao Debian: <https://www.debian.org/mirror/list>."
+
+#. Type: select
+#. Description
+#. :sl2:
 #: ../choose-mirror-bin.templates.both-in:2001
 msgid "Protocol for file downloads:"
-msgstr "Giao thức tải về tập tin:"
+msgstr "Giao thức dùng để tải tập tin:"
 
 #. Type: select
 #. Description
@@ -438,5 +445,5 @@ msgid ""
 "Please select the protocol to be used for downloading files. If unsure, "
 "select \"http\"; it is less prone to problems involving firewalls."
 msgstr ""
-"Hãy lưa chọn giao thức cần dùng khi tải về tập tin. Nếu chưa chắc, chọn « "
-"http », vì nó gặp ít lỗi hơn liên quan đến bức tường lửa."
+"Hãy lựa chọn giao thức cần dùng khi tải về tập tin. Nếu chưa chắc, chọn "
+"“http”, vì nó gặp ít lỗi hơn liên quan đến bức tường lửa."

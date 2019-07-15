@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2011-08-02 18:41+0200\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2018-03-24 16:02+0100\n"
 "Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team:  Czech <provoz@debian.cz>\n"
 "Language: cs\n"
@@ -281,13 +281,9 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "Rozumnou volbou bývá ftp.<kód země>.debian.org."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "Rozumnou volbou bývá deb.debian.org."
 
 #. Type: string
 #. Description
@@ -375,8 +371,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Informace o proxy zadejte ve standardním tvaru „http://[[uživatel][:heslo]@]"
-"počítač[:port]/“"
+"Informace o proxy zadejte ve standardním tvaru „http://[[uživatel][:"
+"heslo]@]počítač[:port]/“"
 
 #. Type: string
 #. Description
@@ -416,6 +412,13 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "CZ"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "Rozumnou volbou bývá ftp.<kód země>.debian.org."
 
 #. Type: select
 #. Description

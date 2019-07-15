@@ -9,17 +9,17 @@
 #
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2013-10-14 14:37+0500\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2018-03-05 11:00+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
-"Language: Tajik\n"
+"Language: tg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,7 +30,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Debian version to install:"
-msgstr "Версияи Debian барои насб:"
+msgstr "Гунаи Debian барои насб:"
 
 #. Type: select
 #. Description
@@ -46,7 +46,7 @@ msgstr ""
 "санҷиш гузаронида шудааст ва дигар тағйир намеёбад. Unstable (Ноустувор) ин "
 "намудест, ки аз санҷиш гузаронида нашудааст ва хело тағйир дода мешавад. "
 "Testing (Санҷишӣ) ин намудест, ки дар байни намудҳои дар боло зикршуда "
-"мебошад ва зиёд вересияҳои навро аз намуди ноустувор қабул мекунад, агар он "
+"мебошад ва зиёд гунаҳои навро аз намуди ноустувор қабул мекунад, агар он "
 "дорои барзиёд хатоҳо набошад."
 
 #. Type: select
@@ -75,7 +75,7 @@ msgstr "Боргирии файлҳои Release..."
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid "Go back and try a different mirror?"
-msgstr "Бармегардонед ва оинаи дигареро кӯшиш мекунед?"
+msgstr "Ба қафо мегузаред ва оинаи дигареро кӯшиш мекунед?"
 
 #. Type: boolean
 #. Description
@@ -87,10 +87,10 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Версияи муайяншудаи (пешфарз) Debian (${RELEASE}) дар оинаҳои интихобшуда "
-"вуҷуд надорад. Шумо метавонед идома диҳед ва релизи дигареро барои насби худ "
-"интихоб кунед, вале одатан шумо бояд баргардед ва оинаи дигареро, ки версияи "
-"дурустро дастгирӣ мекунад, интихоб намоед."
+"Гунаи муайяншудаи (пешфарз) Debian (${RELEASE}) дар оинаҳои интихобшуда "
+"вуҷуд надорад. Шумо метавонед идома диҳед ва барориши дигареро барои насби "
+"худ интихоб намоед, вале одатан шумо бояд баргардед ва оинаи дигареро, ки "
+"гунаи дурустро дастгирӣ мекунад, интихоб намоед."
 
 #. Type: error
 #. Description
@@ -107,7 +107,7 @@ msgid ""
 "An error has been detected while trying to use the specified Debian archive "
 "mirror."
 msgstr ""
-"Ҳангоми кӯшиши истифодаи оинаи бойгонии муайяншудаи Debian хатогӣ ба вуҷуд "
+"Ҳангоми кӯшиши истифодаи оинаи бойгонии муайяншудаи Debian хато ба вуҷуд "
 "омад."
 
 #. Type: error
@@ -122,7 +122,7 @@ msgid ""
 msgstr ""
 "Сабабҳои имконпазир барои хатои пайдошуда: оинаи муайяншудаи нодуруст; оина "
 "дастнорас аст (эҳтимолан ба сабаби пайвасти шабакаи беэътибор); оинаи "
-"вайроншуда (масалан, файли вайроншудаи релиз пайдо шудааст); оина версияи "
+"вайроншуда (масалан, файли вайроншудаи барориш пайдо шудааст); оина гунаи "
 "дурусти Debian дастгирӣ намекунад."
 
 #. Type: error
@@ -140,7 +140,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
-msgstr "Лутфан, оинаи муайяншударо санҷед ё оинаи дигареро кӯшиш кунед."
+msgstr "Лутфан, оинаи муайяншударо санҷед ё оинаи дигареро кӯшиш намоед."
 
 #. Type: error
 #. Description
@@ -157,8 +157,8 @@ msgid ""
 "The specified Debian archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Эҳтимол аст, ки оинаи бойгонии Debian-и муайяншуда сохтори системаи шуморо "
-"дастгирӣ намекунад. Лутфан, оинаи дигареро интихоб кунед."
+"Эҳтимол аст, ки оинаи бойгонии Debian-и муайяншуда сохтори низоми шуморо "
+"дастгирӣ намекунад. Лутфан, оинаи дигареро интихоб намоед."
 
 #. Type: text
 #. Description
@@ -201,7 +201,7 @@ msgstr "Интихоб кардани оинаи бойгонии Debian"
 #: ../choose-mirror-bin.templates.http-in:2001
 #: ../choose-mirror-bin.templates.ftp.sel-in:2001
 msgid "enter information manually"
-msgstr "иттилоотро ба таври дастӣ ворид кунед"
+msgstr "иттилоотро ба таври дастӣ ворид намоед"
 
 #. Type: select
 #. Default
@@ -248,9 +248,9 @@ msgid ""
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Дар ин ҷо шумо бояд оинаи бойгонии Debian-ро муайян кунед, ки барои шумо дар "
-"шабака наздиктар аст -- дар ёд дошта бошед, ки кишварҳои наздиктар ё ҳатто "
-"кишвари шумо наметавонанд интихоби беҳтарин бошанд."
+"Дар ин ҷо шумо бояд оинаи бойгонии Debian-ро муайян намоед, ки барои шумо "
+"дар шабака наздиктар аст -- дар ёд дошта бошед, ки кишварҳои наздиктар ё "
+"ҳатто кишвари шумо наметавонанд интихоби беҳтарин бошанд."
 
 #. Type: select
 #. Description
@@ -276,20 +276,16 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Лутфан яке аз оинаи бойгонии Debian-ро интихоб кунед. Агар надонед, ки кадом "
-"оина пайвасти беҳтарини Интернетро барои шумо дорад, шумо бояд оинаеро дар "
-"кишвар ё минтақаи худ истифода баред."
+"Лутфан яке аз оинаи бойгонии Debian-ро интихоб намоед. Агар надонед, ки "
+"кадом оина пайвасти беҳтарини Интернетро барои шумо дорад, шумо бояд оинаеро "
+"дар кишвар ё минтақаи худ истифода баред."
 
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "Одатан, ftp.<рамзи кишвари шумо>.debian.org интихоби хуб аст."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "Одатан, deb.debian.org интихоби хуб аст."
 
 #. Type: string
 #. Description
@@ -300,7 +296,7 @@ msgstr "Одатан, ftp.<рамзи кишвари шумо>.debian.org инт
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid "Debian archive mirror hostname:"
-msgstr "Номи мизбони оинаи бойгонии Debian"
+msgstr "Номи мизбони оинаи бойгонии Debian:"
 
 #. Type: string
 #. Description
@@ -314,7 +310,7 @@ msgid ""
 "Please enter the hostname of the mirror from which Debian will be downloaded."
 msgstr ""
 "Лутфан, номи мизбони оинае, ки Debian барои боргирӣ истифода мебарад, ворид "
-"кунед."
+"намоед."
 
 #. Type: string
 #. Description
@@ -328,7 +324,7 @@ msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
 msgstr ""
-"Порти иловагӣ метавонад тавассути формати стандартии [мизбон]:[порт] муайян "
+"Порти иловагӣ метавонад тавассути шакли стандартии [мизбон]:[порт] муайян "
 "карда шавад."
 
 #. Type: string
@@ -348,7 +344,7 @@ msgid ""
 "Please enter the directory in which the mirror of the Debian archive is "
 "located."
 msgstr ""
-"Лутфан, директорияеро, ки дорои оинаи бойгонии Debian мебошад, ворид кунед."
+"Лутфан, директорияеро, ки дорои оинаи бойгонии Debian мебошад, ворид намоед."
 
 #. Type: string
 #. Description
@@ -366,7 +362,7 @@ msgid ""
 "information here. Otherwise, leave this blank."
 msgstr ""
 "Агар шумо хоҳед, ки проксии HTTP-ро барои пайдо кардани дастрасӣ ба дунёи "
-"беруна истифода баред, маълумоти проксиро дар ин ҷо ворид кунед. Ба таври "
+"беруна истифода баред, маълумоти проксиро дар ин ҷо ворид намоед. Ба таври "
 "дигар, инро холӣ монед."
 
 #. Type: string
@@ -400,7 +396,7 @@ msgid ""
 "information here. Otherwise, leave this blank."
 msgstr ""
 "Агар шумо хоҳед, ки проксии FTP-ро барои пайдо кардани дастрасӣ ба ҷаҳони "
-"берунӣ истифода баред, тафсилоти проксиро ин ҷо ворид кунед. Набошад, ин "
+"берунӣ истифода баред, тафсилоти проксиро ин ҷо ворид намоед. Набошад, ин "
 "майдонро холӣ монед."
 
 #. Type: select
@@ -427,6 +423,13 @@ msgstr "ИМА[ Қимати пешфарз барои ftp]"
 #. Type: select
 #. Description
 #. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "Одатан, ftp.<рамзи кишвари шумо>.debian.org интихоби хуб аст."
+
+#. Type: select
+#. Description
+#. :sl2:
 #: ../choose-mirror-bin.templates.both-in:2001
 msgid "Protocol for file downloads:"
 msgstr "Протокол барои боргириҳои файлӣ:"
@@ -440,5 +443,5 @@ msgid ""
 "select \"http\"; it is less prone to problems involving firewalls."
 msgstr ""
 "Лутфан, барои боргирии файлҳо протоколе, ки мехоҳед истифода баред, интихоб "
-"намоед. Агар мутмаин набошед, \"http\"-ро интихоб кунед; дар деворҳои оташ "
+"намоед. Агар мутмаин набошед, \"http\"-ро интихоб намоед; дар деворҳои оташ "
 "ин протокол камтар мушкилӣ дорад."

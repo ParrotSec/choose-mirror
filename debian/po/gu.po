@@ -10,13 +10,21 @@
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
 # Contributor:
-# Kartik Mistry <kartik.mistry@gmail.com>, 2006-2009
+# Kartik Mistry <kartik.mistry@gmail.com>, 2006-2013
 #
+#
+# Translations from iso-codes:
+#   - translations from ICU-3.0
+#
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Kartik Mistry <kartik.mistry@gmail.com>, 2006, 2007, 2008.
+#   Ankit Patel <ankit644@yahoo.com>, 2009,2010.
+#   Sweta Kothari <swkothar@redhat.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: d-i\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
 "PO-Revision-Date: 2008-08-07 11:42+0530\n"
 "Last-Translator: Kartik Mistry <kartik.mistry@gmail.com>\n"
 "Language-Team: Gujarati <team@utkarsh.org>\n"
@@ -273,13 +281,9 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "સામાન્ય રીતે, ftp.<તમારા દેશની સંજ્ઞા>.debian.org એ સારો વિકલ્પ છે."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "સામાન્ય રીતે, deb.debian.org એ સારો વિકલ્પ છે."
 
 #. Type: string
 #. Description
@@ -366,8 +370,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"પ્રોક્સી માહિતી આપેલ પ્રમાણભૂત સ્વરૂપમાં હોવી જોઇએ \"http://[[વપરાશકર્તા][:પાસવર્ડ]@]"
-"યજમાન[:પોર્ટ]/\"."
+"પ્રોક્સી માહિતી આપેલ પ્રમાણભૂત સ્વરૂપમાં હોવી જોઇએ \"http://[[વપરાશકર્તા][:"
+"પાસવર્ડ]@]યજમાન[:પોર્ટ]/\"."
 
 #. Type: string
 #. Description
@@ -407,6 +411,13 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "US"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "સામાન્ય રીતે, ftp.<તમારા દેશની સંજ્ઞા>.debian.org એ સારો વિકલ્પ છે."
 
 #. Type: select
 #. Description

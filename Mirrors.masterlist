@@ -1,135 +1,152 @@
-Site: archive.parrotsec.org
-Type: Push-Primary
+Site: deb.parrotsec.org
+Type: GeoDNS
 Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: archive.parrotsec.org
-Country: FR France
-IPv6: no
+Security-architecture: amd64 i386 arm64 armhf
+Security-http: /parrot-security/
+Security-https: /parrot-security/
+Comment: Main Repository hosted on Parrot CDN Servers
 
-
-
-
-
-Site: mirrordirector.parrotsec.org
+Site: mirror.parrotsec.org
+Type: GeoDNS
+Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: US United States
-IPv6: no
+Security-architecture: amd64 i386 arm64 armhf
+Security-http: /parrot-security/
+Security-https: /parrot-security/
+Comment: Backup Repository hosted by Cloudflare
 
-Site: mit-usa.archive.parrotsec.org
-Archive-upstream: mit-usa.archive.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
+Site: ${CC}.deb.parrotsec.org
+Type: GeoDNS
+Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
-Country: US United States
-IPv6: no
+Archive-https: /parrot/
+Archive-rsync: parrot/
+Security-architecture: amd64 i386 arm64 armhf
+Security-http: /parrot-security/
+Security-https: /parrot-security/
+Comment: Country-based Parrot CDN repository
+
+Site: ${CNAME}.deb.parrotsec.org
+Type: GeoDNS
+Archive-architecture: amd64 armhf arm64 i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Archive-rsync: parrot/
+Security-architecture: amd64 i386 arm64 armhf
+Security-http: /parrot-security/
+Security-https: /parrot-security/
+Comment: Country-based Parrot CDN repository
+
+
+
+
+
+
+
 
 Site: mirrors.mit.edu
-Archive-upstream: mirrors.mit.edu
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: US United States
-IPv6: no
 
 Site: mirror.clarkson.edu
-Archive-upstream: mirror.clarkson.edu
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: US United States
-IPv6: no
 
 Site: mirrors.ocf.berkeley.edu
-Archive-upstream: mirrors.ocf.berkeley.edu
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: US United States
-IPv6: yes
 
-
-
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
+Site: ftp.osuosl.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Country: EC Ecuador
-IPv6: no
+Archive-http: /pub/parrotos
+Country: US United States
+
+Site: mirror.sfo12.us.leaseweb.net
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Country: US United States
+
+Site: mirror.mia11.us.leaseweb.net
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Country: US United States
+
+Site: mirror.wdc1.us.leaseweb.net
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Country: US United States
+
+Site: mirror.dal10.us.leaseweb.net
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Country: US United States
+
+
+
+Site: muug.ca
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /mirror/parrot/
+Country: CA Canada
+
+Site: parrot.ca.mirror.cythin.com
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Country: CA Canada
+
+
+
 
 Site: mirror.cedia.org.ec
-Archive-upstream: mirror.cedia.org.ec
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: EC Ecuador
-IPv6: no
-
-Site: cedia-sam.archive.parrotsec.org
-Archive-upstream: cedia-sam.archive.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Country: EC Ecuador
-IPv6: no
-
-Site: uta-sam.archive.parrotsec.org
-Archive-upstream: uta-sam.archive.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Country: EC Ecuador
-IPv6: no
 
 Site: mirror.uta.edu.ec
-Archive-upstream: mirror.uta.edu.ec
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: EC Ecuador
-IPv6: no
-
-Site: ueb-sam.archive.parrotsec.org
-Archive-upstream: ueb-sam.archive.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Country: EC Ecuador
-IPv6: no
 
 Site: mirror.ueb.edu.ec
-Archive-upstream: mirror.ueb.edu.ec
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: EC Ecuador
-IPv6: no
 
-
-
-
-Site: mirrordirector.parrotsec.org
+Site: sft.if.usp.br
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: IT Italy
-IPv6: no
+Country: BR Brazil
 
-Site: garr-euro.archive.parrotsec.org
-Archive-upstream: garr-euro.archive.parrotsec.org
-Type: leaf
+Site: aws-br.deb.parrotsec.org
+Type: push
 Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /mirrors/parrot/
-Country: IT Italy
-IPv6: yes
+Archive-http: /parrot/
+Country: BR Brazil
+
+
+
+
 
 Site: mi.mirror.garr.it
 Type: leaf
@@ -141,7 +158,6 @@ Maintainer: mirror-service@garr.it
 Country: IT Italy
 Location: Milano
 Sponsor: GARR/CILEA http://mirror.garr.it/
-IPv6: yes
 
 Site: na.mirror.garr.it
 Type: leaf
@@ -153,7 +169,6 @@ Maintainer: mirror-service@garr.it
 Country: IT Italy
 Location: Napoli
 Sponsor: GARR/CILEA http://mirror.garr.it/
-IPv6: yes
 
 Site: ba.mirror.garr.it
 Type: leaf
@@ -165,7 +180,6 @@ Maintainer: mirror-service@garr.it
 Country: IT Italy
 Location: Bari
 Sponsor: GARR/CILEA http://mirror.garr.it/
-IPv6: yes
 
 Site: rm.mirror.garr.it
 Type: leaf
@@ -177,7 +191,6 @@ Maintainer: mirror-service@garr.it
 Country: IT Italy
 Location: Roma
 Sponsor: GARR/CILEA http://mirror.garr.it/
-IPv6: yes
 
 Site: bo.mirror.garr.it
 Type: leaf
@@ -189,7 +202,6 @@ Maintainer: mirror-service@garr.it
 Country: IT Italy
 Location: Bologna
 Sponsor: GARR/CILEA http://mirror.garr.it/
-IPv6: yes
 
 Site: ct.mirror.garr.it
 Type: leaf
@@ -201,495 +213,239 @@ Maintainer: mirror-service@garr.it
 Country: IT Italy
 Location: Catania
 Sponsor: GARR/CILEA http://mirror.garr.it/
-IPv6: yes
 
-Site: italy.archive.parrotsec.org
-Type: leaf
+Site: mirror.udupalermo.it
+Type: push
 Archive-architecture: amd64 arm64 armhf i386
-Archive-ftp: /parrot/
 Archive-http: /parrot/
-Archive-rsync:  parrot/
+Country: IT Italy
+
+Site: parrot.mirror.garr.it
+Type: push
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /mirrors/parrot/
 Country: IT Italy
 
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: FR France
-IPv6: no
 
-Site: parrot-euro.archive.parrotsec.org
-Archive-upstream: parrot-euro.archive.parrotsec.org
-Type: leaf
+Site: parrot.mirror.cythin.com
+Type: push
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: FR France
-IPv6: no
-
-Site: fr.mirror.babylon.network
-Archive-upstream: fr.mirror.babylon.network
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Country: FR France
-IPv6: yes
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: DE Germany
-IPv6: no
 
-Site: rwth-aachen-euro.archive.parrotsec.org
-Archive-upstream: rwth-aachen-euro.archive.parrotsec.org
-Type: leaf
+Site: ftp.halifax.rwth-aachen.de
+Type: push-primary
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrotsec/
 Country: DE Germany
-IPv6: yes
-
-Site: http://ftp.halifax.rwth-aachen.de/
-Archive-upstream: http://ftp.halifax.rwth-aachen.de/
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrotsec/
-Country: DE Germany
-IPv6: yes
-
-Site: esslingen-euro.archive.parrotsec.org
-Archive-upstream: esslingen-euro.archive.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /pub/Mirrors/archive.parrotsec.org/
-Country: DE Germany
-IPv6: no
 
 Site: ftp-stud.hs-esslingen.de
-Archive-upstream: ftp-stud.hs-esslingen.de
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /pub/Mirrors/archive.parrotsec.org/
 Country: DE Germany
-IPv6: no
 
-
-Site: mirrordirector.parrotsec.org
+Site: mirror.fra10.de.leaseweb.net
+Type: push
+Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
+Country: DE Germany
+
+
+
+Site: mirror.ams1.nl.leaseweb.net
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Country: GB United Kingdom
-IPv6: no
-
-
-Site: mirrordirector.parrotsec.org
 Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
+Country: NL Netherlands
+
+Site: ftp.nluug.nl
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Country: BE Belgium
-IPv6: no
+Archive-http: /os/Linux/distr/parrot/
+Country: NL Netherlands
+
+
 
 Site: ftp.belnet.be
 Archive-http: /archive.parrotsec.org/
-Archive-upstream: ftp.belnet.be
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: BE Belgium
-IPv6: no
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: PT Portugal
-IPv6: no
 
 Site: mirrors.up.pt
 Archive-http: /parrot/
-Archive-upstream: mirrors.up.pt
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: PT Portugal
-IPv6: no
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: ES Spain
-IPv6: no
 
 Site: matojo.unizar.es
 Archive-http: /parrot/
-Archive-upstream: matojo.unizar.es
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: ES Spain
-IPv6: no
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: DK Denmark
-IPv6: no
 
 Site: mirrors.dotsrc.org
-Archive-http: /parrot-repo/
-Archive-upstream: mirrors.dotsrc.org
+Archive-http: /parrot/
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: DK Denmark
-IPv6: no
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: NL Netherlands
-IPv6: no
 
-Site: nluug-euro.archive.parrotsec.org
-Archive-upstream: nluug-euro.archive.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /os/Linux/distr/parrot/
-Country: NL Netherlands
-IPv6: yes
-
-Site: ftp.nluug.nl
-Archive-upstream: ftp.nluug.nl
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /os/Linux/distr/parrot/
-Country: NL Netherlands
-IPv6: yes
-
-Site: nl.mirror.babylon.network
-Archive-upstream: nl.mirror.babylon.network
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Country: NL Netherlands
-IPv6: yes
-
-
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: PL Poland
-IPv6: no
-
-Site: onet-euro.archive.parrotsec.org
-Archive-upstream: onet-euro.archive.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /pub/mirrors/parrot/
-Country: PL Poland
-IPv6: no
-
-Site: mirror.onet.pl
-Archive-upstream: mirror.onet.pl
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /pub/mirrors/parrot/
-Country: PL Poland
-IPv6: no
-
-
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: SE Sweden
-IPv6: no
-
-Site: umu-euro.archive.parrotsec.org
-Archive-upstream: umu-euro.archive.parrotsec.org
+Site: ftp.acc.umu.se
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirror/parrotsec.org/parrot/
 Country: SE Sweden
-IPv6: yes
-
-Site: umu-euro.archive.parrotsec.org
-Archive-upstream: umu-euro.archive.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /mirror/parrotsec.org/parrot/
-Country: SE Sweden
-IPv6: yes
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: IE Ireland
-IPv6: no
-
-Site: ftp.heanet.ie
-Archive-upstream: ftp.heanet.ie
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /pub/parrotsec/
-Country: IE Ireland
-IPv6: yes
-
-
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: GR Greece
-IPv6: no
 
 Site: ftp.cc.uoc.gr
-Archive-upstream: ftp.cc.uoc.gr
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/linux/parrot/
 Country: GR Greece
-IPv6: no
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
+
+Site: quantum-mirror.hu
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Country: GR Greece
-IPv6: no
+Archive-http: /mirrors/linux/parrot/
+Country: HU Hungary
+
+
 
 Site: turkey.archive.parrotsec.org
-Archive-upstream: turkey.archive.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: TR Turkey
-IPv6: no
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: UA Ukraine
-IPv6: no
+
 
 Site: parrotsec.volia.net
-Archive-upstream: parrotsec.volia.net
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /
 Country: UA Ukraine
-IPv6: no
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: RU Russian Federation
-IPv6: no
 
-Site: yandex-asia.archive.parrotsec.org
-Archive-upstream: yandex-asia.archive.parrotsec.org
+Site: mirror.yandex.ru
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/parrot/
 Country: RU Russian Federation
-IPv6: yes
 
 Site: mirror.truenetwork.ru
-Archive-upstream: mirror.truenetwork.ru
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: RU Russian Federation
-IPv6: no
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: UZ Uzbekistan
-IPv6: no
 
-Site: yandex-asia.archive.parrotsec.org
-Archive-upstream: yandex-asia.archive.parrotsec.org
+Site: mirror.yandex.ru
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/parrot/
 Country: UZ Uzbekistan
-IPv6: yes
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: BD Bangladesh
-IPv6: no
 
-Site: amberit-asia.archive.parrotsec.org
-Archive-upstream: amberit-asia.archive.parrotsec.org
+Site: mirror.amberit.com.bd
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrotsec/
 Country: BD Bangladesh
-IPv6: yes
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: TW Taiwan
-IPv6: no
 
 Site: free.nchc.org.tw
-Archive-upstream: free.nchc.org.tw
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: TW Taiwan
-IPv6: no
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: SG Singapore
-IPv6: no
 
 Site: mirror.0x.sg
-Archive-upstream: mirror.0x.sg
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: SG Singapore
-IPv6: no
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: TH Thailand
-IPv6: no
 
 Site: mirror.kku.ac.th
 Archive-http: /parrot/
-Archive-upstream: mirror.kku.ac.th
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: TH Thailand
-IPv6: no
 
 
-Site: mirrordirector.parrotsec.org
+
+Site: kartolo.sby.datautama.net.id
 Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Country: CN China
-IPv6: no
+Country: ID Indonesia
+
+
+
+Site: mirrors.takeshi.nz
+Archive-http: /parrot/
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Country: NZ New Zeland
+
 
 Site: mirrors.ustc.edu.cn
-Archive-upstream: mirrors.ustc.edu.cn
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: CN China
-IPv6: yes
 
 Site: mirrors.tuna.tsinghua.edu.cn
-Archive-upstream: mirrors.tuna.tsinghua.edu.cn
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: CN China
-IPv6: yes
 
-
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
+Site: mirrors.shu.edu.cn
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Country: IR Iran, Islamic Republic of
-IPv6: no
+Archive-http: /parrot/
+Country: CN China
+
+Site: mirrors.sjtug.sjtu.edu.cn
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Country: CN China
+
+
 
 Site: parrot.asis.io
-Archive-upstream: parrot.asis.io
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /
 Country: IR Iran, Islamic Republic of
-IPv6: yes
 
 
-Site: mirrordirector.parrotsec.org
-Archive-http: /parrot/
-Archive-rsync: parrot/
-Archive-upstream: mirrordirector.parrotsec.org
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Country: NC New Caledonia
-IPv6: no
 
-Site: lagoon-ocean.archive.parrotsec.org
-Archive-upstream: lagoon-ocean.archive.parrotsec.org
+Site: mirror.lagoon.nc
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /pub/parrot/

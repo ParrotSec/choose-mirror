@@ -83,6 +83,17 @@ for (my $id = 0; $id < @data; $id++) {
 # However, if a country has no push-primary or secondary mirrors, its leaf
 # mirrors are put before geodns, since we do not want to default to a
 # geodns mirror that will likely not be in the country.
+#
+# == NOTE FOR PARROT OS ==
+# In Parrot OS  we give more priority to our primary GeoDNS mirror, since it
+# redirects automatically to the nearest mirror available after performing
+# health checks and only if that mirror provides the files required by the user.
+# The new order is the following:
+# Priority 5: GeoDNS
+# Priority 4: push-primary
+# Priority 3: push
+# Priority 2: leaf
+# Priority 1: everything else
 my %cc_has_push_mirror;
 foreach my $id (0..$#data) {
 	my $cc = $data[$id]->{country};
@@ -94,12 +105,13 @@ foreach my $id (0..$#data) {
 	my $cc = $data[$id]->{country};
 	my $rating=0;
 	if (exists $data[$id]->{type}) {
-	        $rating=1 if $data[$id]->{type} =~ /geodns/i;
-	        $rating=4 if $data[$id]->{type} =~ /push/i;
-                $rating=5 if $data[$id]->{type} =~ /push-primary/i;
+	        $rating=5 if $data[$id]->{type} =~ /geodns/i;
+	        $rating=4 if $data[$id]->{type} =~ /push-primary/i;
+	        $rating=3 if $data[$id]->{type} =~ /push/i;
+	        $rating=2 if $data[$id]->{type} =~ /leaf/i;
         }
 	if (! $rating && ! $cc_has_push_mirror{$cc}) {
-		$rating=2;
+		$rating=1;
 	}
 	$data[$id]->{rating}=$rating;
 }

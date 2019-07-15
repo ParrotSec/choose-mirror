@@ -5,28 +5,33 @@
 #
 # translation of debian-installer_packages_po_sublevel1_ne.po to Nepali
 # Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
-# Shiva Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Shiva Pokharel <shiva@mpp.org.np>, 2006.
 # Shyam Krishna Bal <shyam@mpp.org.np>, 2006.
-# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Shiva Prasad Pokharel <shiva@mpp.org.np>, 2006.
 # Shiva Pokharel <shiva@mpp.org.np>, 2007, 2008.
 # Shiva Prasad Pokharel <pokharelshiv@gmail.com>, 2007.
 # shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
 # Nabin Gautam <nabin@mpp.org.np>, 2007.
 # Shyam Krishna Bal <balshyam24@yahoo.com>, 2008.
-# Shiva Prasad Pokharel <shiva@mpp.org.np>, 2008, 2010.
+# Shiva Prasad Pokharel <shiva@mpp.org.np>, 2008, 2010, 2011.
+# Jeewal Kunwar <jeewalkunwar1@gmail.com>, 2017.
+#
+# Translations from iso-codes:
+#   Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
+#   Shiva Prasad Pokharel <shiva@mpp.org.np>, 2006, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_ne\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2010-07-09 12:14+0545\n"
-"Last-Translator: \n"
-"Language-Team: American English <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2017-12-17 18:40+0000\n"
+"Last-Translator: Jeewal Kunwar <jeewalkunwar1@gmail.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n !=1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: select
 #. Description
@@ -199,7 +204,7 @@ msgstr "डेबियन सङ्ग्रहको एउटा मिरर
 #: ../choose-mirror-bin.templates.http-in:2001
 #: ../choose-mirror-bin.templates.ftp.sel-in:2001
 msgid "enter information manually"
-msgstr "सूचना म्यानुअल तरिकाले प्रविष्ट गर्नुहोस्"
+msgstr "सूचना म्यानुअल तरिकाले जानकारी प्रविष्ट गर्नुहोस्"
 
 #. Type: select
 #. Default
@@ -273,19 +278,15 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"कृपया डेबियन सङ्ग्रह मिरर चयन गर्नुहोस् । यदि तपाईँलाई कुन मिररको तपाईँसँग इन्टरनेट जडान "
-"उत्तम छ भन्ने थाह छैन भने तपाईँले मिररलाई आफ्नो देश वा क्षेत्रमा प्रयोग गर्नपर्दछ । "
+"कृपया डिबियन अभिलेख दर्पण चयन गर्नुहोस्। यदि तपाईलाई थाहा छैन भने तपाईंको आईना वा "
+"क्षेत्रमा दर्पण प्रयोग गर्नुपर्दछ जुन तपाईंको आईनाको उत्तम इन्टरनेट जडान भएको छ।"
 
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "सामान्यतया, ftp.<your country code>.debian.org राम्रो रोजाई हुनसक्छ ।"
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "सामान्यतया, deb.debian.org राम्रो रोजाई हुनसक्छ ।"
 
 #. Type: string
 #. Description
@@ -413,6 +414,13 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "IN"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "सामान्यतया, ftp.<your country code>.debian.org राम्रो रोजाई हुनसक्छ ।"
 
 #. Type: select
 #. Description

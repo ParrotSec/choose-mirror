@@ -6,22 +6,29 @@
 # translation of te.po to Telugu
 # Telugu translation for debian-installer
 # This file is distributed under the same license as the debian-installer package.
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+#
+# Translations from iso-codes:
 # వీవెన్ (Veeven) <launchpad.net>, 2007.
 # Y Giridhar Appaji Nag <giridhar@appaji.net>, 2008.
-# Arjuna Rao Chavala <arjunaraoc@gmail.com>,2010
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# Arjuna Rao Chavala <arjunaraoc@gmail.com>,2010.
+# Y Giridhar Appaji Nag <appaji@debian.org>, 2008, 2009.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+# Arjuna Rao Chavala <arjunaraoc@googlemail.com>, 2011, 2012.
+# Praveen Illa <mail2ipn@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2011-01-19 21:00+0530\n"
-"Last-Translator: Arjuna Rao Chavala <arjunaraoc@gmail.com>\n"
-"Language-Team: Telugu <debian-in-workers@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2018-07-23 06:44+0000\n"
+"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
+"Language-Team: d-i <kde-i18n-doc@kde.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: select
 #. Description
@@ -271,13 +278,9 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "సాధారణంగా, ftp.<ఆంగ్ల అక్షరాలలోమీ దేశపు గుర్తు >.debian.org మంచి ఎంపిక."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "సాధారణంగా, deb.debian.org మంచి ఎంపిక."
 
 #. Type: string
 #. Description
@@ -403,6 +406,13 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "US"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "సాధారణంగా, ftp.<ఆంగ్ల అక్షరాలలోమీ దేశపు గుర్తు >.debian.org మంచి ఎంపిక."
 
 #. Type: select
 #. Description

@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dDz.po\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
 "PO-Revision-Date: 2012-02-29 04:41-0500\n"
 "Last-Translator: Jurmey Rabgay <jrabgay@dit.gov.bt>\n"
 "Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
@@ -280,13 +280,9 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "སྤྱིར་བཏང་ལུ་ftp.bt.debian.org འདི་གདམ་ཁ་ལེགས་ཤོམ་ཨིན།"
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "སྤྱིར་བཏང་ལུ་ deb.debian.org འདི་གདམ་ཁ་ལེགས་ཤོམ་ཨིན།"
 
 #. Type: string
 #. Description
@@ -414,6 +410,13 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "IN"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "སྤྱིར་བཏང་ལུ་ftp.bt.debian.org འདི་གདམ་ཁ་ལེགས་ཤོམ་ཨིན།"
 
 #. Type: select
 #. Description

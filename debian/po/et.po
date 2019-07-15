@@ -8,7 +8,7 @@
 # This translation is released under the same licence as the debian-installer.
 #
 # Siim Põder <siim@p6drad-teel.net>, 2007.
-# Kristjan Räts <kristjanrats@gmail.com>, 2017.
+# Kristjan Räts <kristjanrats@gmail.com>, 2017, 2018.
 #
 # Thanks to following Ubuntu Translators for review and fixes:
 #     Laur Mõtus
@@ -31,8 +31,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2017-11-19 13:25+0000\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2018-07-24 14:27+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -293,15 +293,9 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr ""
-"Tavaliselt on ftp.<sinu riigi kood>.debian.org hea valik. Näiteks: ftp.ee."
-"debian.org."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "Tavaliselt on deb.debian.org hea valik."
 
 #. Type: string
 #. Description
@@ -429,6 +423,15 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "EE"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr ""
+"Tavaliselt on ftp.<sinu riigi kood>.debian.org hea valik. Näiteks: ftp.ee."
+"debian.org."
 
 #. Type: select
 #. Description

@@ -3,24 +3,21 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of debian-installer_packages_po_sublevel1_km.po to Khmer
-# translation of km.po to
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt#
-#
+# translation of km.po to Khmer
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2007, 2008, 2010.
+#   eng vannak <evannak@khmeros.info>, 2006.
+#   auk piseth <piseth_dv@khmeros.info>, 2006.
+#   Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2010, 2012.
+# Translations from iso-codes:
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer_packages_po_sublevel1_km\n"
+"Project-Id-Version: km\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2010-06-21 09:08+0700\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2012-01-18 15:40+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
-"Language: \n"
+"Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -274,13 +271,9 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "ជា​ធម្មតា​ ftp.<កូដ​ប្រទេស​របស់​អ្នក>.debian.org គឺ​ជា​ជម្រើស​មួយ​ដ៏​ល្អ ។"
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "ជា​ធម្មតា​ deb.debian.org គឺ​ជា​ជម្រើស​មួយ​ដ៏​ល្អ ។"
 
 #. Type: string
 #. Description
@@ -407,6 +400,13 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "KH"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "ជា​ធម្មតា​ ftp.<កូដ​ប្រទេស​របស់​អ្នក>.debian.org គឺ​ជា​ជម្រើស​មួយ​ដ៏​ល្អ ។"
 
 #. Type: select
 #. Description

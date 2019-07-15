@@ -13,6 +13,7 @@
 # Translations from KDE:
 # Andris Maziks <andzha@latnet.lv>
 #
+#
 # Aigars Mahinovs <aigarius@debian.org>, 2006, 2008.
 # Viesturs Zarins <viesturs.zarins@mii.lu.lv>, 2008.
 # Aigars Mahinovs <aigarius@debian.org>, 2006.
@@ -20,23 +21,22 @@
 # Free Software Foundation, Inc., 2002,2004.
 # Juris Kudiņš <cooker@inbox.lv>, 2001.
 # Rihards Priedītis <rprieditis@gmail.com>, 2009, 2010.
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012, 2013, 2017.
 # Peteris Krisjanis <pecisk@gmail.com>, 2008, 2012.
-#
+# Tranzistors <rudolfs.mazurs@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2012-05-27 12:29+0300\n"
-"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
-"Language-Team: Latviešu <locale-l10n@googlegroups.com>\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2018-10-17 19:33+0000\n"
+"Last-Translator: Tranzistors <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2)\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
 
 #. Type: select
 #. Description
@@ -119,7 +119,7 @@ msgstr "Nederīgs arhīva spoguļserveris"
 msgid ""
 "An error has been detected while trying to use the specified Debian archive "
 "mirror."
-msgstr "Kļūda, mēģinot izmantot uzdoto Debian arhīva spoguļserveri"
+msgstr "Kļūda, mēģinot izmantot uzdoto Debian arhīva spoguļserveri."
 
 #. Type: error
 #. Description
@@ -152,7 +152,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
-msgstr "Lūdzu, pārbaudiet norādīto spoguļserveri, vai izvēlieties citu"
+msgstr "Lūdzu, pārbaudiet norādīto spoguļserveri, vai izvēlieties citu."
 
 #. Type: error
 #. Description
@@ -294,13 +294,9 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "Parasti ftp.<valsts divu burtu kods>.debian.org ir laba izvēle."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "Parasti deb.debian.org ir laba izvēle."
 
 #. Type: string
 #. Description
@@ -389,7 +385,7 @@ msgid ""
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
 "Starpniekservera informācija jāievada standarta formā - \"http://[[lietotājs]"
-"[:parole]@]serveris[:ports]/\""
+"[:parole]@]serveris[:ports]/\"."
 
 #. Type: string
 #. Description
@@ -429,6 +425,13 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "LV"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "Parasti ftp.<valsts divu burtu kods>.debian.org ir laba izvēle."
 
 #. Type: select
 #. Description

@@ -33,7 +33,7 @@ LIBS=-ldebconfclient -ldebian-installer
 STRIP=strip
 
 # Derivative distributions may want to change these.
-MIRRORLISTURL=https://anonscm.debian.org/git/mirror/mirror-masterlist.git/plain/Mirrors.masterlist
+MIRRORLISTURL=https://salsa.debian.org/mirror-team/masterlist/raw/master/Mirrors.masterlist
 MASTERLIST=Mirrors.masterlist
 
 ifdef DEBUG

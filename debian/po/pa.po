@@ -20,15 +20,15 @@
 # Amanpreet Singh Brar <aalam@users.sf.net>, 2008.
 # Amanpreet Singh Alam <aalam@users.sf.net>, 2008, 2009.
 # Amanpreet Singh Alam[ਆਲਮ] <amanpreetalam@yahoo.com>, 2005.
-# A S Alam <aalam@users.sf.net>, 2009, 2012.
+# A S Alam <aalam@users.sf.net>, 2009, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2012-05-06 12:14+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2018-01-04 06:20+0000\n"
+"Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
+"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -203,7 +203,7 @@ msgstr "ਡੇਬੀਅਨ ਅਕਾਇਵ ਦਾ ਮਿੱਰਰ ਚੁਣੋ"
 #: ../choose-mirror-bin.templates.http-in:2001
 #: ../choose-mirror-bin.templates.ftp.sel-in:2001
 msgid "enter information manually"
-msgstr "ਜਾਣਕਾਰੀ ਦਸਤੀ ਦਿਓ"
+msgstr "ਜਾਣਕਾਰੀ ਖੁਦ ਦਿਓ"
 
 #. Type: select
 #. Default
@@ -283,13 +283,9 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "ਆਮ ਤੌਰ ਤੇ, ftp.<your country code>.debian.org ਵਧੀਆ ਚੋਣ ਹੈ।"
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "ਆਮ ਤੌਰ ਤੇ, deb.debian.org ਵਧੀਆ ਚੋਣ ਹੈ।"
 
 #. Type: string
 #. Description
@@ -415,6 +411,13 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "IN"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "ਆਮ ਤੌਰ ਤੇ, ftp.<your country code>.debian.org ਵਧੀਆ ਚੋਣ ਹੈ।"
 
 #. Type: select
 #. Description

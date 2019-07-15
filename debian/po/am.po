@@ -8,19 +8,24 @@
 # tegegne tefera <tefera@mekuria.com>, 2006.
 #
 #
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Data taken from ICU-2.8; contributed by:
+#   - Daniel Yacob <yacob@geez.org>, Ge'ez Frontier Foundation
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2010-06-29 17:14+0800\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2014-04-04 22:07+0100\n"
 "Last-Translator: Tegegne Tefera <tefera@mekuria.com>\n"
-"Language-Team: Amharic\n"
-"Language: \n"
+"Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
+"Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: n>1\n"
+"Plural-Forms: n>1;\n"
 
 #. Type: select
 #. Description
@@ -267,13 +272,9 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "ftp.<your country code>.debian.org ጥሩ ምርጫ ሊሆን ይችላል."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "deb.debian.org ጥሩ ምርጫ ሊሆን ይችላል."
 
 #. Type: string
 #. Description
@@ -400,6 +401,13 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "US"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "ftp.<your country code>.debian.org ጥሩ ምርጫ ሊሆን ይችላል."
 
 #. Type: select
 #. Description

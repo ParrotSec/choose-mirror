@@ -1,11 +1,11 @@
 Source: choose-mirror
 Section: debian-installer
-Priority: extra
-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Uploaders: Christian Perrier <bubulle@debian.org>, Colin Watson <cjwatson@debian.org>, Cyril Brulebois <kibi@debian.org>
+Priority: optional
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Uploaders: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
 Build-Depends: debhelper (>= 9), libdebconfclient0-dev, wget, po-debconf, libdebian-installer4-dev, locales, iso-codes, isoquery
-Vcs-Browser: https://anonscm.debian.org/cgit/d-i/choose-mirror.git
-Vcs-Git: https://anonscm.debian.org/git/d-i/choose-mirror.git
+Vcs-Browser: https://nest.parrotsec.org/debian-packages/debian-installer/choose-mirror
+Vcs-Git: https://nest.parrotsec.org/debian-packages/debian-installer/choose-mirror
 
 Package: choose-mirror
 Package-Type: udeb

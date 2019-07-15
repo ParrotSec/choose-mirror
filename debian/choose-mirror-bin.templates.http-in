@@ -29,13 +29,14 @@ _Description: Debian archive mirror country:
 Template: mirror/http/mirror
 Type: select
 Choices: ${mirrors}
+Default: deb.debian.org
 # :sl1:
 _Description: Debian archive mirror:
  Please select a Debian archive mirror. You should use a mirror in
  your country or region if you do not know which mirror has the best
  Internet connection to you.
  .
- Usually, ftp.<your country code>.debian.org is a good choice.
+ Usually, deb.debian.org is a good choice.
 
 Template: mirror/http/hostname
 Type: string

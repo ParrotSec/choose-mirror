@@ -15,15 +15,16 @@
 #   Krunoslav Gernhard, 2004
 #   Vladimir Vuksan <vuksan@veus.hr>, 2000.
 #   Vlatko Kosturjak, 2001
-# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013.
+#   Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013, 2014, 2015.
+#   Valentin Vidic <Valentin.Vidic@CARNet.hr>, 2017
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2013-04-27 02:15+0200\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
+"POT-Creation-Date: 2018-09-07 14:36+0200\n"
+"PO-Revision-Date: 2017-04-01 23:55+0200\n"
+"Last-Translator: Valentin Vidic <Valentin.Vidic@CARNet.hr>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -291,13 +292,9 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#. Type: select
-#. Description
-#. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
-#: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "Obično je 'ftp.<oznaka vaše zemlje>.debian.org' dobar izbor."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "Obično je 'deb.debian.org' dobar izbor."
 
 #. Type: string
 #. Description
@@ -385,8 +382,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Proxy postavke trebaju biti u uobičajenom obliku: \"http://[[user][:pass]@]"
-"host[:port]/\"."
+"Proxy postavke trebaju biti u uobičajenom obliku: \"http://[[user][:"
+"pass]@]host[:port]/\"."
 
 #. Type: string
 #. Description
@@ -426,6 +423,13 @@ msgstr ""
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
 msgstr "HR"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "Obično je 'ftp.<oznaka vaše zemlje>.debian.org' dobar izbor."
 
 #. Type: select
 #. Description

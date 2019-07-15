@@ -23,12 +23,12 @@ struct mirror_t {
  */
 #define BUFFER_LENGTH 256
 
-#define SUITE_LENGTH 32
+#define SUITE_LENGTH 128
 
 /* Stack of suites */
 static const char suites[][SUITE_LENGTH] = {
 	/* higher preference */
-	"parrot",
+	"oldstable",
 	"stable",
 	"testing",
 	"unstable"
