@@ -59,42 +59,49 @@ Site: mirror.clarkson.edu
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: US United States
 
 Site: mirrors.ocf.berkeley.edu
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: US United States
 
 Site: ftp.osuosl.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /pub/parrotos
+Archive-https: /pub/parrotos
 Country: US United States
 
 Site: mirror.sfo12.us.leaseweb.net
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: US United States
 
 Site: mirror.mia11.us.leaseweb.net
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: US United States
 
 Site: mirror.wdc1.us.leaseweb.net
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: US United States
 
 Site: mirror.dal10.us.leaseweb.net
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: US United States
 
 
@@ -103,12 +110,14 @@ Site: muug.ca
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirror/parrot/
+Archive-https: /mirror/parrot/
 Country: CA Canada
 
 Site: parrot.ca.mirror.cythin.com
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: CA Canada
 
 
@@ -118,18 +127,21 @@ Site: mirror.cedia.org.ec
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: EC Ecuador
 
 Site: mirror.uta.edu.ec
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: EC Ecuador
 
 Site: mirror.ueb.edu.ec
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: EC Ecuador
 
 Site: sft.if.usp.br
@@ -142,6 +154,7 @@ Site: aws-br.deb.parrotsec.org
 Type: push
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: BR Brazil
 
 
@@ -153,6 +166,7 @@ Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-ftp: /mirrors/parrot/
 Archive-http: /mirrors/parrot/
+Archive-https: /mirrors/parrot/
 Archive-rsync:  parrot/
 Maintainer: mirror-service@garr.it
 Country: IT Italy
@@ -164,6 +178,7 @@ Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-ftp: /mirrors/parrot/
 Archive-http: /mirrors/parrot/
+Archive-https: /mirrors/parrot/
 Archive-rsync:  parrot/
 Maintainer: mirror-service@garr.it
 Country: IT Italy
@@ -175,6 +190,7 @@ Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-ftp: /mirrors/parrot/
 Archive-http: /mirrors/parrot/
+Archive-https: /mirrors/parrot/
 Archive-rsync:  parrot/
 Maintainer: mirror-service@garr.it
 Country: IT Italy
@@ -186,6 +202,7 @@ Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-ftp: /mirrors/parrot/
 Archive-http: /mirrors/parrot/
+Archive-https: /mirrors/parrot/
 Archive-rsync:  parrot/
 Maintainer: mirror-service@garr.it
 Country: IT Italy
@@ -197,6 +214,7 @@ Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-ftp: /mirrors/parrot/
 Archive-http: /mirrors/parrot/
+Archive-https: /mirrors/parrot/
 Archive-rsync:  parrot/
 Maintainer: mirror-service@garr.it
 Country: IT Italy
@@ -208,6 +226,7 @@ Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-ftp: /mirrors/parrot/
 Archive-http: /mirrors/parrot/
+Archive-https: /mirrors/parrot/
 Archive-rsync:  parrot/
 Maintainer: mirror-service@garr.it
 Country: IT Italy
@@ -218,12 +237,14 @@ Site: mirror.udupalermo.it
 Type: push
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: IT Italy
 
 Site: parrot.mirror.garr.it
 Type: push
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/parrot/
+Archive-https: /mirrors/parrot/
 Country: IT Italy
 
 
@@ -233,6 +254,7 @@ Site: parrot.mirror.cythin.com
 Type: push
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: FR France
 
 
@@ -241,18 +263,21 @@ Site: ftp.halifax.rwth-aachen.de
 Type: push-primary
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrotsec/
+Archive-https: /parrotsec/
 Country: DE Germany
 
 Site: ftp-stud.hs-esslingen.de
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /pub/Mirrors/archive.parrotsec.org/
+Archive-https: /pub/Mirrors/archive.parrotsec.org/
 Country: DE Germany
 
 Site: mirror.fra10.de.leaseweb.net
 Type: push
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: DE Germany
 
 
@@ -261,18 +286,21 @@ Site: mirror.ams1.nl.leaseweb.net
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: NL Netherlands
 
 Site: ftp.nluug.nl
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /os/Linux/distr/parrot/
+Archive-https: /os/Linux/distr/parrot/
 Country: NL Netherlands
 
 
 
 Site: ftp.belnet.be
-Archive-http: /archive.parrotsec.org/
+Archive-http: /pub/archive.parrotsec.org/
+Archive-https: /pub/archive.parrotsec.org/
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: BE Belgium
@@ -281,6 +309,7 @@ Country: BE Belgium
 
 Site: mirrors.up.pt
 Archive-http: /parrot/
+Archive-https: /parrot/
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: PT Portugal
@@ -289,6 +318,7 @@ Country: PT Portugal
 
 Site: matojo.unizar.es
 Archive-http: /parrot/
+Archive-https: /parrot/
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: ES Spain
@@ -297,6 +327,7 @@ Country: ES Spain
 
 Site: mirrors.dotsrc.org
 Archive-http: /parrot/
+Archive-https: /parrot/
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: DK Denmark
@@ -307,6 +338,7 @@ Site: ftp.acc.umu.se
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirror/parrotsec.org/parrot/
+Archive-https: /mirror/parrotsec.org/parrot/
 Country: SE Sweden
 
 
@@ -315,6 +347,7 @@ Site: ftp.cc.uoc.gr
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/linux/parrot/
+Archive-https: /mirrors/linux/parrot/
 Country: GR Greece
 
 
@@ -322,6 +355,7 @@ Site: quantum-mirror.hu
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/linux/parrot/
+Archive-https: /mirrors/linux/parrot/
 Country: HU Hungary
 
 
@@ -330,6 +364,7 @@ Site: turkey.archive.parrotsec.org
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: TR Turkey
 
 
@@ -338,6 +373,7 @@ Site: parrotsec.volia.net
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /
+Archive-https: /
 Country: UA Ukraine
 
 
@@ -346,12 +382,14 @@ Site: mirror.yandex.ru
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/parrot/
+Archive-https: /mirrors/parrot/
 Country: RU Russian Federation
 
 Site: mirror.truenetwork.ru
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: RU Russian Federation
 
 
@@ -360,6 +398,7 @@ Site: mirror.yandex.ru
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/parrot/
+Archive-https: /mirrors/parrot/
 Country: UZ Uzbekistan
 
 
@@ -376,6 +415,7 @@ Site: free.nchc.org.tw
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: TW Taiwan
 
 
@@ -384,12 +424,14 @@ Site: mirror.0x.sg
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: SG Singapore
 
 
 
 Site: mirror.kku.ac.th
 Archive-http: /parrot/
+Archive-https: /parrot/
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: TH Thailand
@@ -398,6 +440,7 @@ Country: TH Thailand
 
 Site: kartolo.sby.datautama.net.id
 Archive-http: /parrot/
+Archive-https: /parrot/
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: ID Indonesia
@@ -406,6 +449,7 @@ Country: ID Indonesia
 
 Site: mirrors.takeshi.nz
 Archive-http: /parrot/
+Archive-https: /parrot/
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: NZ New Zeland
@@ -415,24 +459,28 @@ Site: mirrors.ustc.edu.cn
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: CN China
 
 Site: mirrors.tuna.tsinghua.edu.cn
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: CN China
 
 Site: mirrors.shu.edu.cn
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: CN China
 
 Site: mirrors.sjtug.sjtu.edu.cn
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: CN China
 
 
@@ -441,6 +489,7 @@ Site: parrot.asis.io
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /
+Archive-https: /
 Country: IR Iran, Islamic Republic of
 
 
@@ -449,5 +498,6 @@ Site: mirror.lagoon.nc
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /pub/parrot/
+Archive-https: /pub/parrot/
 Country: NC New Caledonia
 IPv6: no

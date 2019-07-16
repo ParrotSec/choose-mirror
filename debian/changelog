@@ -1,8 +1,11 @@
 choose-mirror (2.99+parrot2) parrot; urgency=medium
 
-  * Replace Debian releases with Parrot releases in mirrors.h
+  * Rebuild package.
+  * Update templates.
+  * Add https support.
+  * Add parrot releases.
 
- -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 16 Jul 2019 00:59:03 +0200
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 16 Jul 2019 20:18:34 +0200
 
 choose-mirror (2.99+parrot1) parrot; urgency=medium
 

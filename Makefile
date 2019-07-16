@@ -33,7 +33,7 @@ LIBS=-ldebconfclient -ldebian-installer
 STRIP=strip
 
 # Derivative distributions may want to change these.
-MIRRORLISTURL=https://salsa.debian.org/mirror-team/masterlist/raw/master/Mirrors.masterlist
+MIRRORLISTURL=https://nest.parrotsec.org/debian-packages/debian-installer/choose-mirror/raw/master/Mirrors.masterlist
 MASTERLIST=Mirrors.masterlist
 
 ifdef DEBUG
