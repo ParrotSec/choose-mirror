@@ -12,6 +12,7 @@ Template: mirror/suite
 Type: select
 Choices-C: ${CHOICES-C}
 Choices: ${CHOICES}
+Default: rolling
 # :sl2:
 _Description: Parrot version to install:
  Parrot comes in several flavors.

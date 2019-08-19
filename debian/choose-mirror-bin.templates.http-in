@@ -29,7 +29,7 @@ _Description: Parrot archive mirror country:
 Template: mirror/http/mirror
 Type: select
 Choices: ${mirrors}
-Default: deb.parrotsec.org
+Default: deb.parrot.sh
 # :sl1:
 _Description: Parrot archive mirror:
  Please select a Parrot archive mirror. You should use a mirror in
@@ -40,7 +40,7 @@ _Description: Parrot archive mirror:
 
 Template: mirror/http/hostname
 Type: string
-Default: mirror
+Default: deb.parrot.sh
 # :sl1:
 _Description: Parrot archive mirror hostname:
  Please enter the hostname of the mirror from which Parrot will be downloaded.

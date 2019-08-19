@@ -10,10 +10,8 @@ Type: select
 # :sl1:
 Choices-C: manual
 __Choices: enter information manually
-# Default hardcoded to US for now.  If the use of HTTPS becomes popular then
-# we may want to do the same kind of language-specific default as we do in
-# debian/choose-mirror-bin.templates.http-in.
-Default: US
+# let users choose the mirror country
+_Default: US
 # :sl1:
 _Description: Parrot archive mirror country:
  The goal is to find a mirror of the Parrot archive that is close to you on the network -- be
@@ -22,7 +20,7 @@ _Description: Parrot archive mirror country:
 Template: mirror/https/mirror
 Type: select
 Choices: ${mirrors}
-Default: deb.parrotsec.org
+Default: deb.parrot.sh
 # :sl1:
 _Description: Parrot archive mirror:
  Please select a Parrot archive mirror. You should use a mirror in
@@ -33,7 +31,7 @@ _Description: Parrot archive mirror:
 
 Template: mirror/https/hostname
 Type: string
-Default: mirror
+Default: deb.parrot.sh
 # :sl1:
 _Description: Parrot archive mirror hostname:
  Please enter the hostname of the mirror from which Parrot will be downloaded.

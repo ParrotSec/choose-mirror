@@ -2,7 +2,7 @@
 
 Template: mirror/ftp/hostname
 Type: string
-Default: mirror
+Default: deb.parrot.sh
 # :sl2:
 _Description: Parrot archive mirror hostname:
  Please enter the hostname of the mirror from which Parrot will be downloaded.
