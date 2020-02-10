@@ -20,18 +20,18 @@ _Description: Parrot archive mirror country:
 Template: mirror/https/mirror
 Type: select
 Choices: ${mirrors}
-Default: deb.parrot.sh
+Default: mirror.parrot.sh
 # :sl1:
 _Description: Parrot archive mirror:
  Please select a Parrot archive mirror. You should use a mirror in
  your country or region if you do not know which mirror has the best
  Internet connection to you.
  .
- Usually, deb.parrotsec.org is a good choice.
+ Usually, mirror.parrotsec.org is a good choice.
 
 Template: mirror/https/hostname
 Type: string
-Default: deb.parrot.sh
+Default: mirror.parrot.sh
 # :sl1:
 _Description: Parrot archive mirror hostname:
  Please enter the hostname of the mirror from which Parrot will be downloaded.
@@ -41,7 +41,7 @@ _Description: Parrot archive mirror hostname:
 
 Template: mirror/https/directory
 Type: string
-Default: /parrot/
+Default: /mirrors/parrot/
 # :sl2:
 _Description: Parrot archive mirror directory:
  Please enter the directory in which the mirror of the Parrot archive is
