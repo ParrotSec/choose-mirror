@@ -3,8 +3,8 @@
 
 Template: mirror/ftp/countries
 Type: select
-# :sl2:
 Choices-C: manual
+# :sl2:
 __Choices: enter information manually
 #  Translators, you should put here the ISO 3166 code of a country
 #  which you know hosts at least one Parrot FTP mirror. Please check
@@ -12,7 +12,7 @@ __Choices: enter information manually
 #  random value here
 #
 #  First check that the country you mention here is listed in
-#  http://svn.debian.org/wsvn/webwml/trunk/webwml/english/mirror/Mirrors.masterlist
+#  https://www.parrotsec.org/docs/mirror-list.html
 #
 #  BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
 #  
@@ -35,5 +35,3 @@ _Description: Parrot archive mirror:
  Please select a Parrot archive mirror. You should use a mirror in
  your country or region if you do not know which mirror has the best
  Internet connection to you.
- .
- Usually, ftp.<your country code>.debian.org is a good choice.

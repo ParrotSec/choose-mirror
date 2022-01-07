@@ -2,8 +2,8 @@
 
 Template: mirror/http/countries
 Type: select
-# :sl1:
 Choices-C: manual
+# :sl1:
 __Choices: enter information manually
 #  Translators, you should put here the ISO 3166 code of a country
 #  which you know hosts at least one Parrot HTTP mirror. Please check
@@ -11,7 +11,7 @@ __Choices: enter information manually
 #  random value here
 #
 #  First check that the country you mention here is listed in
-#  http://svn.debian.org/wsvn/webwml/trunk/webwml/english/mirror/Mirrors.masterlist
+#  https://www.parrotsec.org/docs/mirror-list.html
 #
 #  BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
 #  
@@ -29,18 +29,18 @@ _Description: Parrot archive mirror country:
 Template: mirror/http/mirror
 Type: select
 Choices: ${mirrors}
-Default: mirror.parrot.sh
+Default: deb.parrot.sh
 # :sl1:
 _Description: Parrot archive mirror:
  Please select a Parrot archive mirror. You should use a mirror in
  your country or region if you do not know which mirror has the best
  Internet connection to you.
  .
- Usually, mirror.parrotsec.org is a good choice.
+ Usually, deb.parrot.sh is a good choice.
 
 Template: mirror/http/hostname
 Type: string
-Default: mirror.parrot.sh
+Default: deb.parrot.sh
 # :sl1:
 _Description: Parrot archive mirror hostname:
  Please enter the hostname of the mirror from which Parrot will be downloaded.
@@ -50,7 +50,7 @@ _Description: Parrot archive mirror hostname:
 
 Template: mirror/http/directory
 Type: string
-Default: /mirrors/parrot/
+Default: /parrot/
 # :sl2:
 _Description: Parrot archive mirror directory:
  Please enter the directory in which the mirror of the Parrot archive is

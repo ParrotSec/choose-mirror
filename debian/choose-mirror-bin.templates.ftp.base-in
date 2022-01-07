@@ -2,7 +2,7 @@
 
 Template: mirror/ftp/hostname
 Type: string
-Default: deb.parrot.sh
+Default: mirror
 # :sl2:
 _Description: Parrot archive mirror hostname:
  Please enter the hostname of the mirror from which Parrot will be downloaded.
@@ -14,7 +14,7 @@ Template: mirror/ftp/directory
 Type: string
 Default: /parrot/
 # :sl2:
-_Description: Debian archive mirror directory:
+_Description: Parrot archive mirror directory:
  Please enter the directory in which the mirror of the Parrot archive is
  located.
 

@@ -10,49 +10,11 @@ Type: select
 # :sl1:
 Choices-C: manual
 __Choices: enter information manually
-# let users choose the mirror country
-_Default: US
+# Default hardcoded to US for now.  If the use of HTTPS becomes popular then
+# we may want to do the same kind of language-specific default as we do in
+# debian/choose-mirror-bin.templates.http-in.
+Default: US
 # :sl1:
 _Description: Parrot archive mirror country:
  The goal is to find a mirror of the Parrot archive that is close to you on the network -- be
  aware that nearby countries, or even your own, may not be the best choice.
-
-Template: mirror/https/mirror
-Type: select
-Choices: ${mirrors}
-Default: mirror.parrot.sh
-# :sl1:
-_Description: Parrot archive mirror:
- Please select a Parrot archive mirror. You should use a mirror in
- your country or region if you do not know which mirror has the best
- Internet connection to you.
- .
- Usually, mirror.parrotsec.org is a good choice.
-
-Template: mirror/https/hostname
-Type: string
-Default: mirror.parrot.sh
-# :sl1:
-_Description: Parrot archive mirror hostname:
- Please enter the hostname of the mirror from which Parrot will be downloaded.
- .
- An alternate port can be specified using the standard [hostname]:[port]
- format.
-
-Template: mirror/https/directory
-Type: string
-Default: /mirrors/parrot/
-# :sl2:
-_Description: Parrot archive mirror directory:
- Please enter the directory in which the mirror of the Parrot archive is
- located.
-
-Template: mirror/https/proxy
-Type: string
-# :sl1:
-_Description: HTTP proxy information (blank for none):
- If you need to use a HTTP proxy to access the outside world, enter the
- proxy information here. Otherwise, leave this blank.
- .
- The proxy information should be given in the standard form of
- "http://[[user][:pass]@]host[:port]/".

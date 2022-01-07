@@ -1,0 +1,441 @@
+# THIS FILE IS GENERATED AUTOMATICALLY FROM THE D-I PO MASTER FILES
+# The master files can be found under packages/po/
+#
+# DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
+#
+# Kabyle translation for debian-installer
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the debian-installer package.
+# Slimane Selyan Amiri <selyan.kab@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer sublevel1\n"
+"Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
+"POT-Creation-Date: 2020-10-05 20:01+0000\n"
+"PO-Revision-Date: 2020-10-24 15:08+0100\n"
+"Last-Translator: Slimane Selyan Amiri <selyan.kab@gmail.com>\n"
+"Language-Team: Kabyle <kab@li.org>\n"
+"Language: kab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:3001
+msgid "Debian version to install:"
+msgstr "Lqem n Debian i usebded:"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:3001
+msgid ""
+"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Unstable is untested and frequently changing. Testing is a middle ground, "
+"that receives many of the new versions from unstable if they are not too "
+"buggy."
+msgstr ""
+"Debian yettas-d deg waṭas n yileqman. Urkid yettusekyed akken ilaq, "
+"yettbeddil tikwal kan. Arurkid ur yettusekyed ara, yettbeddil sya ɣer da. "
+"Asekyed d tifrat talemmast, ideg i d-ttemlilin aṭas n yileqman imaynuten seg "
+"warurkid ma yella ur ɛebban ara aṭas."
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:3001
+msgid "Only flavors available on the selected mirror are listed."
+msgstr "Ala lbennat i yellan deg tisit yettwafernen i d-yettwabedren."
+
+#. Type: text
+#. Description
+#. :sl1:
+#: ../choose-mirror-bin.templates-in:5001
+msgid "Checking the Debian archive mirror"
+msgstr "Asenqed n tisit n uɣbalu n Debian"
+
+#. Type: text
+#. Description
+#. :sl1:
+#: ../choose-mirror-bin.templates-in:6001
+msgid "Downloading Release files..."
+msgstr "Asider n yifuyla n lqem..."
+
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:7001
+msgid "Go back and try a different mirror?"
+msgstr "Uɣal ɣer deffir tɛerḍeḍ tisitin yemgaraden?"
+
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:7001
+msgid ""
+"The specified (default) Debian version (${RELEASE}) is not available from "
+"the selected mirror. It is possible to continue and select a different "
+"release for your installation, but normally you should go back and select a "
+"different mirror that does support the correct version."
+msgstr ""
+"Lqem n Debian (amezwer) ufrin (${RELEASE}) ulac-it deg tisit i yettwafernen. "
+"Yezmer ad tkemmleḍ syen ad tferneḍ lqem-nniḍen i usebded-inek·inem, maca "
+"akken ilaq ad tuɣaleḍ ɣer deffir i wakken ad tferneḍ tisit-nniḍen ara "
+"isferken lqem ameɣtu."
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:8001
+msgid "Bad archive mirror"
+msgstr "Yir tisit n uɣbalu"
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:8001
+msgid ""
+"An error has been detected while trying to use the specified Debian archive "
+"mirror."
+msgstr ""
+"Tella-d tuccḍa mi ara nettaɛraḍ aseqdec n tisit n uḥraz n Debian i "
+"yettwafernen."
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:8001
+msgid ""
+"Possible reasons for the error are: incorrect mirror specified; mirror is "
+"not available (possibly due to an unreliable network connection); mirror is "
+"broken (for example because an invalid Release file was found); mirror does "
+"not support the correct Debian version."
+msgstr ""
+"Ssebbat ahat n tuccḍa d: tisit tarameɣtut i d-yettufernen; tisit ulac-itt "
+"(ahat ssebba n yir tuqqna n uzeṭṭa); tisit terreẓ (d amedya acku yettwaf "
+"ufaylu Release arameɣtu); tisit ur tsefrak ara lqem n Debian ameɣtu."
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:8001
+msgid ""
+"Additional details may be available in /var/log/syslog or on virtual console "
+"4."
+msgstr ""
+"Talqayt-nniḍen tezmer ad til deg /var/log/syslog neɣ deg tdiwent tuhlist 4."
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:8001
+msgid "Please check the specified mirror or try a different one."
+msgstr "Ttxil-k·m fren tisit i yettwefrnen neɣ ɛreḍ tayeḍ-nniḍen yemgaraden."
+
+#. Type: error
+#. Description
+#. :sl3:
+#: ../choose-mirror-bin.templates-in:9001
+msgid "Architecture not supported"
+msgstr "Tasegda ur tettusefrak ara"
+
+#. Type: error
+#. Description
+#. :sl3:
+#: ../choose-mirror-bin.templates-in:9001
+msgid ""
+"The specified Debian archive mirror does not seem to support your "
+"architecture. Please try a different mirror."
+msgstr ""
+"Tisit n uɣbalu n Debian tufrint ur tettban ara tessefrak tasegda-inek·inem. "
+"Ma ulac aɣilif, ɛreḍ tisit-nniḍen."
+
+#. Type: text
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:10001
+msgid "oldstable"
+msgstr "oldstable"
+
+#. Type: text
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:11001
+msgid "stable"
+msgstr "urkid"
+
+#. Type: text
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:12001
+msgid "testing"
+msgstr "asekyed"
+
+#. Type: text
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:13001
+msgid "unstable"
+msgstr "arurkid"
+
+#. Type: text
+#. Description
+#. main-menu item
+#. Translators: keep below 55 columns
+#. :sl1:
+#: ../choose-mirror-bin.templates-in:14001
+msgid "Choose a mirror of the Debian archive"
+msgstr "Fren tisit i uɣbalu n Debian"
+
+#. Type: select
+#. Choices
+#. :sl1:
+#. Type: select
+#. Choices
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:2001
+#: ../choose-mirror-bin.templates.ftp.sel-in:2001
+msgid "enter information manually"
+msgstr "sekcem talɣut s ufus"
+
+#. Type: select
+#. Default
+#. Translators, you should put here the ISO 3166 code of a country
+#. which you know hosts at least one Debian HTTP mirror. Please check
+#. that the country really has a Debian HTTP mirror before putting a
+#. random value here
+#.
+#. First check that the country you mention here is listed in
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#.
+#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#.
+#. You do not need to translate what's between the square brackets
+#. You should even NOT put square brackets in translations:
+#. msgid "US[ Default value for http]"
+#. msgstr "FR"
+#. :sl1:
+#: ../choose-mirror-bin.templates.http-in:2002
+msgid "US[ Default value for http]"
+msgstr "FR"
+
+#. Type: select
+#. Description
+#. :sl1:
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:2003
+#: ../choose-mirror-bin.templates.ftp.sel-in:2003
+msgid "Debian archive mirror country:"
+msgstr "Tamurt n tisit n uɣbalu n Debian:"
+
+#. Type: select
+#. Description
+#. :sl1:
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:2003
+#: ../choose-mirror-bin.templates.ftp.sel-in:2003
+msgid ""
+"The goal is to find a mirror of the Debian archive that is close to you on "
+"the network -- be aware that nearby countries, or even your own, may not be "
+"the best choice."
+msgstr ""
+"Iswi d tifin n tisit n uɣbalu n Debian i iqerben ɣur-k·m ɣef uzeṭṭa -- ẓer "
+"belli timura i iqerben, neɣ ula d tamurt-ik·im, zemrent ad ilint mačči d "
+"afrin igerrzen."
+
+#. Type: select
+#. Description
+#. :sl1:
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:3001
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Debian archive mirror:"
+msgstr "Tisit n uɣbalu n Debian:"
+
+#. Type: select
+#. Description
+#. :sl1:
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:3001
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid ""
+"Please select a Debian archive mirror. You should use a mirror in your "
+"country or region if you do not know which mirror has the best Internet "
+"connection to you."
+msgstr ""
+"Ttxil-k·m fren tisit n uɣbalu n Debian. Ilaq-ak·am ad tesqedceḍ tisit deg "
+"tmurt-ik·im neɣ deg temnaḍt-ik·im ma yella ur teẓriḍ ara anta tisit ara "
+"ak·am-d-imudden tuqqna n Internet i igerrzen."
+
+#. Type: select
+#. Description
+#. :sl1:
+#: ../choose-mirror-bin.templates.http-in:3001
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "S umata, deb.debian.org is a good choice."
+
+#. Type: string
+#. Description
+#. :sl1:
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:4001
+#: ../choose-mirror-bin.templates.ftp.base-in:2001
+msgid "Debian archive mirror hostname:"
+msgstr "Isem n usenneftaɣ n tisit n uɣbalu n Debian:"
+
+#. Type: string
+#. Description
+#. :sl1:
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:4001
+#: ../choose-mirror-bin.templates.ftp.base-in:2001
+msgid ""
+"Please enter the hostname of the mirror from which Debian will be downloaded."
+msgstr ""
+"Ttxil-k·m sekcem isem n usenneftaɣ n tisit seg wanda i d-yettusader Debian."
+
+#. Type: string
+#. Description
+#. :sl1:
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:4001
+#: ../choose-mirror-bin.templates.ftp.base-in:2001
+msgid ""
+"An alternate port can be specified using the standard [hostname]:[port] "
+"format."
+msgstr ""
+"Tawwurt-nniḍen yezmer ad yettufren s useqdec n umasal alugen [hostname]:"
+"[port]."
+
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:5001
+#: ../choose-mirror-bin.templates.ftp.base-in:3001
+msgid "Debian archive mirror directory:"
+msgstr "Akaram n tisit n uḥraz n Debian:"
+
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:5001
+#: ../choose-mirror-bin.templates.ftp.base-in:3001
+msgid ""
+"Please enter the directory in which the mirror of the Debian archive is "
+"located."
+msgstr "Ttxil-k·m sekcem akaram ideg tella tisit n uḥraz n Debian."
+
+#. Type: string
+#. Description
+#. :sl1:
+#: ../choose-mirror-bin.templates.http-in:6001
+msgid "HTTP proxy information (blank for none):"
+msgstr "Talɣut ɣef upṛuksi n HTTP (d lem i ulac):"
+
+#. Type: string
+#. Description
+#. :sl1:
+#: ../choose-mirror-bin.templates.http-in:6001
+msgid ""
+"If you need to use a HTTP proxy to access the outside world, enter the proxy "
+"information here. Otherwise, leave this blank."
+msgstr ""
+"Ma yella ilaq ad tesqedceḍ apṛuksi HTTP i unekcum ɣer umaḍal n beṛṛa, sekcem "
+"talɣut n upṛuksi dagi. Neɣ ma ulac, eǧǧ urti-a d ilem."
+
+#. Type: string
+#. Description
+#. :sl1:
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:6001
+#: ../choose-mirror-bin.templates.ftp.base-in:4001
+msgid ""
+"The proxy information should be given in the standard form of \"http://"
+"[[user][:pass]@]host[:port]/\"."
+msgstr ""
+"Talɣut n upṛuksi ilaq ad ttunefken s talɣa taslugant n \"http://[[user][:"
+"pass]@]host[:port]/\"."
+
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.base-in:4001
+msgid "FTP proxy information (blank for none):"
+msgstr "Talɣut ɣef upṛuksi n FTP (d ilem i wulac):"
+
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.base-in:4001
+msgid ""
+"If you need to use a FTP proxy to access the outside world, enter the proxy "
+"information here. Otherwise, leave this blank."
+msgstr ""
+"Ma yella tesriḍ aseqdec n upṛuksi FTP i unekcum ɣer umaḍal n beṛṛa, sekcem "
+"talɣut n upṛuksi dagi. Neɣ ma ulac, eǧǧ urti-a d ilem."
+
+#. Type: select
+#. Default
+#. Translators, you should put here the ISO 3166 code of a country
+#. which you know hosts at least one Debian FTP mirror. Please check
+#. that the country really has a Debian FTP mirror before putting a
+#. random value here
+#.
+#. First check that the country you mention here is listed in
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#.
+#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#.
+#. You do not need to translate what's between the square brackets
+#. You should even NOT put square brackets in translations:
+#. msgid "US[ Default value for ftp]"
+#. msgstr "FR"
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:2002
+msgid "US[ Default value for ftp]"
+msgstr "FR"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr "S umata, ftp.<your country code>.debian.org d afran i igerrzen."
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.both-in:2001
+msgid "Protocol for file downloads:"
+msgstr "Aneggaf i yisadaren n ufaylu:"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.both-in:2001
+msgid ""
+"Please select the protocol to be used for downloading files. If unsure, "
+"select \"http\"; it is less prone to problems involving firewalls."
+msgstr ""
+"Ttxil-k·m fren aneggaf ara yettusqedcen i usali n yifuyla. Ma yella ur "
+"tetḥiqeḍ ara, fren 'http\"; ur iseɛɛu ara aṭas n wuguren i icudden ɣer "
+"iɣraben n tmes."

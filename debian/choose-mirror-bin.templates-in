@@ -12,20 +12,14 @@ Template: mirror/suite
 Type: select
 Choices-C: ${CHOICES-C}
 Choices: ${CHOICES}
-Default: rolling
 # :sl2:
 _Description: Parrot version to install:
- Parrot comes in several flavors.
+ Parrot comes in several flavors. Stable is well-tested and rarely changes.
+ Unstable is untested and frequently changing. Testing is a middle ground,
+ that receives many of the new versions from unstable if they are not too
+ buggy.
  .
- Parrot LTS
- LTS is the Long Term Support distribution where software is slower to update but more reliable.
- It also receives fast security updates.
- .
- Parrot Rolling
- Rolling is a version of parrot that receives continuos updates and the software is always available
- at its latest version.
- The system is less reliable but it offers a perfect environment for developers and testers (or arch users).
-
+ Only flavors available on the selected mirror are listed.
 
 Template: mirror/codename
 Type: string
@@ -47,7 +41,9 @@ Default: true
 # :sl2:
 _Description: Go back and try a different mirror?
  The specified (default) Parrot version (${RELEASE}) is not available from
- the selected mirror. Select a different release or go back and select another mirror.
+ the selected mirror. It is possible to continue and select a different
+ release for your installation, but normally you should go back and select
+ a different mirror that does support the correct version.
 
 Template: mirror/bad
 Type: error
@@ -56,15 +52,12 @@ _Description: Bad archive mirror
  An error has been detected while trying to use the specified Parrot archive
  mirror.
  .
- Possible reasons for the error are: incorrect mirror specified;
- * mirror is not available (possibly due to an unreliable network connection);
- * mirror is broken (for example because an invalid Release file was found);
- * mirror does not support the correct Parrot version.
+ Possible reasons for the error are: incorrect mirror specified; mirror is
+ not available (possibly due to an unreliable network connection); mirror is
+ broken (for example because an invalid Release file was found); mirror does
+ not support the correct Parrot version.
  .
- How to read the full log:
- Open a terminal window and check the content of /var/log/syslog
- Or alternatively press CTRL+ALT+f4 to see the log file. You can go back with
- CTRL+ALT+F1 (console installer) or CTRL+ALT+F5 (gtk installer).
+ Additional details may be available in /var/log/syslog or on virtual console 4.
  .
  Please check the specified mirror or try a different one.
 
@@ -76,18 +69,24 @@ _Description: Architecture not supported
  architecture. Please try a different mirror.
 
 
+Template: mirror/suites/stable
+Type: text
+# :sl2:
+_Description: stable
+
+Template: mirror/suites/parrot
+Type: text
+# :sl2:
+_Description: stable
+
 Template: mirror/suites/lts
 Type: text
 # :sl2:
-_Description: LTS - Long Term Support (Stable)
-
-Template: mirror/suites/rolling
-Type: text
-# :sl2:
-_Description: Rolling - Rolling Release (Testing)
+_Description: stable
 
 Template: debian-installer/choose-mirror/title
 Type: text
-# main-menu
+#  main-menu item
+#  Translators: keep below 55 columns
 # :sl1:
-_Description: Choose the Download Server for Parrot OS
+_Description: Choose a mirror of the Parrot archive

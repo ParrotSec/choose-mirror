@@ -1,0 +1,446 @@
+# THIS FILE IS GENERATED AUTOMATICALLY FROM THE D-I PO MASTER FILES
+# The master files can be found under packages/po/
+#
+# DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
+#
+# Occitan (post 1500) translation for debian-installer
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the debian-installer package.
+# Yannig MARCHEGAY <yannick.marchegay@lokanova.com>, 2006.
+# Cédric VALMARY <cvalmary@yahoo.fr>, 2016.
+# Quentin PAGÈS <quentinantonin@free.fr>, 2020.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer sublevel1\n"
+"Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
+"POT-Creation-Date: 2020-10-05 20:01+0000\n"
+"PO-Revision-Date: 2020-11-15 18:28+0000\n"
+"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
+"Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:3001
+msgid "Debian version to install:"
+msgstr "Version de Debian d’installar :"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:3001
+msgid ""
+"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Unstable is untested and frequently changing. Testing is a middle ground, "
+"that receives many of the new versions from unstable if they are not too "
+"buggy."
+msgstr ""
+"Debian es disponible dins mantunas variantas. Stable es pro testada e càmbia "
+"pas sovent. Unstable es pas testada e càmbia plan sovent. Testing es un "
+"entremièg, recep fòrça versions novèlas d’unstable se son pas tròp "
+"problematicas."
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:3001
+msgid "Only flavors available on the selected mirror are listed."
+msgstr "Sonque las variantas disponiblas sul miralh causit son listadas."
+
+#. Type: text
+#. Description
+#. :sl1:
+#: ../choose-mirror-bin.templates-in:5001
+msgid "Checking the Debian archive mirror"
+msgstr "Verificacion del miralh d'archius de Debian"
+
+#. Type: text
+#. Description
+#. :sl1:
+#: ../choose-mirror-bin.templates-in:6001
+msgid "Downloading Release files..."
+msgstr "Telecargament dels fichièrs « Release »..."
+
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:7001
+msgid "Go back and try a different mirror?"
+msgstr "Tornar en arrièr e causir un autre miralh ?"
+
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:7001
+msgid ""
+"The specified (default) Debian version (${RELEASE}) is not available from "
+"the selected mirror. It is possible to continue and select a different "
+"release for your installation, but normally you should go back and select a "
+"different mirror that does support the correct version."
+msgstr ""
+"La version de Debian indicada (${RELEASE}) es pas disponibla sul miralh "
+"qu’avètz causit. Podètz contunhar e causir una autra version d’installar o "
+"tornar en arrièr e causir un autre miralh qu’ofrís la version corrècta."
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:8001
+msgid "Bad archive mirror"
+msgstr "Miralh de l’archiu marrit"
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:8001
+msgid ""
+"An error has been detected while trying to use the specified Debian archive "
+"mirror."
+msgstr ""
+"Una error s’es producha en ensajant d’utilizar lo miralh d’archius Debian "
+"indicat."
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:8001
+msgid ""
+"Possible reasons for the error are: incorrect mirror specified; mirror is "
+"not available (possibly due to an unreliable network connection); mirror is "
+"broken (for example because an invalid Release file was found); mirror does "
+"not support the correct Debian version."
+msgstr ""
+"Las rasons possiblas per aquesta error son : un miralh incorrècte es estat "
+"indicat (per exemple a causa d’una connexion ret desfalhenta), lo miralh es "
+"copat (per exemple se un fichièr Release pas valable i es estat trobat) o lo "
+"miralh compòrta pas la version de Debian indicada."
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:8001
+msgid ""
+"Additional details may be available in /var/log/syslog or on virtual console "
+"4."
+msgstr ""
+"D’informacions suplementàrias son disponiblas dins lo fichièr /var/log/"
+"syslog o sus la quatrena consòla virtuala."
+
+#. Type: error
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:8001
+msgid "Please check the specified mirror or try a different one."
+msgstr "Verificatz lo miralh indicat o ensajatz-ne un autre."
+
+#. Type: error
+#. Description
+#. :sl3:
+#: ../choose-mirror-bin.templates-in:9001
+msgid "Architecture not supported"
+msgstr "Arquitectura pas compatibla"
+
+#. Type: error
+#. Description
+#. :sl3:
+#: ../choose-mirror-bin.templates-in:9001
+msgid ""
+"The specified Debian archive mirror does not seem to support your "
+"architecture. Please try a different mirror."
+msgstr ""
+"Lo miralh per cargar l'archiu de Debian sembla suportar pas vòstra "
+"arquitectura. Se vos plai, ensajatz un miralh diferent."
+
+#. Type: text
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:10001
+msgid "oldstable"
+msgstr "anciana version establa"
+
+#. Type: text
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:11001
+msgid "stable"
+msgstr "establa"
+
+#. Type: text
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:12001
+msgid "testing"
+msgstr "tèst"
+
+#. Type: text
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates-in:13001
+msgid "unstable"
+msgstr "instabla"
+
+#. Type: text
+#. Description
+#. main-menu item
+#. Translators: keep below 55 columns
+#. :sl1:
+#: ../choose-mirror-bin.templates-in:14001
+msgid "Choose a mirror of the Debian archive"
+msgstr "Causissètz un miralh d'archius Debian"
+
+#. Type: select
+#. Choices
+#. :sl1:
+#. Type: select
+#. Choices
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:2001
+#: ../choose-mirror-bin.templates.ftp.sel-in:2001
+msgid "enter information manually"
+msgstr "picatz manualament las entresenhas"
+
+#. Type: select
+#. Default
+#. Translators, you should put here the ISO 3166 code of a country
+#. which you know hosts at least one Debian HTTP mirror. Please check
+#. that the country really has a Debian HTTP mirror before putting a
+#. random value here
+#.
+#. First check that the country you mention here is listed in
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#.
+#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#.
+#. You do not need to translate what's between the square brackets
+#. You should even NOT put square brackets in translations:
+#. msgid "US[ Default value for http]"
+#. msgstr "FR"
+#. :sl1:
+#: ../choose-mirror-bin.templates.http-in:2002
+msgid "US[ Default value for http]"
+msgstr "FR"
+
+#. Type: select
+#. Description
+#. :sl1:
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:2003
+#: ../choose-mirror-bin.templates.ftp.sel-in:2003
+msgid "Debian archive mirror country:"
+msgstr "País del miralh de l'archius de Debian :"
+
+#. Type: select
+#. Description
+#. :sl1:
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:2003
+#: ../choose-mirror-bin.templates.ftp.sel-in:2003
+msgid ""
+"The goal is to find a mirror of the Debian archive that is close to you on "
+"the network -- be aware that nearby countries, or even your own, may not be "
+"the best choice."
+msgstr ""
+"La tòca es de trobar un miralh d'archius Debian qu'es prèp de vòstra ret -- "
+"vos cal saber que causir un miralh dins las regions pròchas o la vòstra es "
+"benlèu pas la melhora causida."
+
+#. Type: select
+#. Description
+#. :sl1:
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:3001
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Debian archive mirror:"
+msgstr "Miralh d'archius Debian :"
+
+#. Type: select
+#. Description
+#. :sl1:
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:3001
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid ""
+"Please select a Debian archive mirror. You should use a mirror in your "
+"country or region if you do not know which mirror has the best Internet "
+"connection to you."
+msgstr ""
+"Causissètz un miralh d'archius Debian. Deuriatz utilizar un miralh dins "
+"vòstre país o region se sabètz pas quin miralh a la melhora connexion "
+"internet per vos."
+
+#. Type: select
+#. Description
+#. :sl1:
+#: ../choose-mirror-bin.templates.http-in:3001
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "En general, deb.debian.org es una causida pertinenta."
+
+#. Type: string
+#. Description
+#. :sl1:
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:4001
+#: ../choose-mirror-bin.templates.ftp.base-in:2001
+msgid "Debian archive mirror hostname:"
+msgstr "Nom d'òste del miralh d'archius de Debian :"
+
+#. Type: string
+#. Description
+#. :sl1:
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:4001
+#: ../choose-mirror-bin.templates.ftp.base-in:2001
+msgid ""
+"Please enter the hostname of the mirror from which Debian will be downloaded."
+msgstr "Picatz lo nom del miralh Debian d'ont se farà lo telecargament."
+
+#. Type: string
+#. Description
+#. :sl1:
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:4001
+#: ../choose-mirror-bin.templates.ftp.base-in:2001
+msgid ""
+"An alternate port can be specified using the standard [hostname]:[port] "
+"format."
+msgstr ""
+"Podètz picar un autre pòrt amb lo format normalizat [nom_d_òste]:[pòrt]."
+
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:5001
+#: ../choose-mirror-bin.templates.ftp.base-in:3001
+msgid "Debian archive mirror directory:"
+msgstr "Repertòri del miralh de l’archiu Debian :"
+
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:5001
+#: ../choose-mirror-bin.templates.ftp.base-in:3001
+msgid ""
+"Please enter the directory in which the mirror of the Debian archive is "
+"located."
+msgstr "Picatz lo repertòri ont es lo miralh de l’archiu Debian."
+
+#. Type: string
+#. Description
+#. :sl1:
+#: ../choose-mirror-bin.templates.http-in:6001
+msgid "HTTP proxy information (blank for none):"
+msgstr "Mandatari HTTP (daissar void se n'avètz pas) :"
+
+#. Type: string
+#. Description
+#. :sl1:
+#: ../choose-mirror-bin.templates.http-in:6001
+msgid ""
+"If you need to use a HTTP proxy to access the outside world, enter the proxy "
+"information here. Otherwise, leave this blank."
+msgstr ""
+"Se vos cal utilizar un servidor mandatari, proxy, HTTP per accedir al mond "
+"exterior, picatz las entresenhas del servidor mandatari aicí. Autrament, "
+"daissatz la zòna voida."
+
+#. Type: string
+#. Description
+#. :sl1:
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.http-in:6001
+#: ../choose-mirror-bin.templates.ftp.base-in:4001
+msgid ""
+"The proxy information should be given in the standard form of \"http://"
+"[[user][:pass]@]host[:port]/\"."
+msgstr ""
+"Vos cal picar los paramètres del proxy amb la forma normalizada http://"
+"[[utilizaire][:senhal]@]òste[:pòrt]/ »."
+
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.base-in:4001
+msgid "FTP proxy information (blank for none):"
+msgstr "Mandatari FTP (daissatz void se n’avètz pas) :"
+
+#. Type: string
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.base-in:4001
+msgid ""
+"If you need to use a FTP proxy to access the outside world, enter the proxy "
+"information here. Otherwise, leave this blank."
+msgstr ""
+"S’avètz besonh d’un proxy FTP per accedir al mond exterior, picatz las "
+"entresenhas del proxy aicí. Autrament, piquetz pas res."
+
+#. Type: select
+#. Default
+#. Translators, you should put here the ISO 3166 code of a country
+#. which you know hosts at least one Debian FTP mirror. Please check
+#. that the country really has a Debian FTP mirror before putting a
+#. random value here
+#.
+#. First check that the country you mention here is listed in
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#.
+#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#.
+#. You do not need to translate what's between the square brackets
+#. You should even NOT put square brackets in translations:
+#. msgid "US[ Default value for ftp]"
+#. msgstr "FR"
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:2002
+msgid "US[ Default value for ftp]"
+msgstr "FR"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.ftp.sel-in:3001
+msgid "Usually, ftp.<your country code>.debian.org is a good choice."
+msgstr ""
+"En general, <vòstre còdi de país>.debian.org es una causida pertinenta."
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.both-in:2001
+msgid "Protocol for file downloads:"
+msgstr "Protocòl de telecargament dels fichièrs :"
+
+#. Type: select
+#. Description
+#. :sl2:
+#: ../choose-mirror-bin.templates.both-in:2001
+msgid ""
+"Please select the protocol to be used for downloading files. If unsure, "
+"select \"http\"; it is less prone to problems involving firewalls."
+msgstr ""
+"Causissètz lo protocòl d’utilizar per telecargar de fichièrs. Se sabètz pas, "
+"causissètz « http », es lo protocòl que pausa mens de problèmas de filtres "
+"pels parafuòcs."

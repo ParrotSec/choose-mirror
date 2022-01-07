@@ -33,7 +33,7 @@ LIBS=-ldebconfclient -ldebian-installer
 STRIP=strip
 
 # Derivative distributions may want to change these.
-MIRRORLISTURL=https://nest.parrotsec.org/debian-packages/debian-installer/choose-mirror/raw/master/Mirrors.masterlist
+MIRRORLISTURL=https://salsa.debian.org/mirror-team/masterlist/raw/master/Mirrors.masterlist
 MASTERLIST=Mirrors.masterlist
 
 ifdef DEBUG
@@ -86,7 +86,10 @@ debian/httpslist-countries: $(MASTERLIST) debian/iso_3166.tab
 debian/ftplist-countries: $(MASTERLIST) debian/iso_3166.tab
 	./mirrorlist ftplist $^
 
-debian/choose-mirror-bin.templates: $(MASTERLIST) $(templates) debian/httplist-countries debian/httpslist-countries debian/ftplist-countries debian/iso_3166.tab
+debian/port_architecture: $(MASTERLIST) debian/iso_3166.tab
+	./mirrorlist port_architecture $^
+
+debian/choose-mirror-bin.templates: $(MASTERLIST) $(templates) debian/httplist-countries debian/httpslist-countries debian/ftplist-countries debian/iso_3166.tab debian/port_architecture
 	# Grab ISO codes from iso-codes package
 	./get-iso-codes
 	# Build the templates
@@ -132,6 +135,7 @@ clean:
 	rm -f demo demo.templates
 	rm -rf debian/iso-codes/ debian/pobuild*/
 	rm -f debian/iso_3166.tab
+	rm -f debian/port_architecture
 
 reallyclean: clean
 	rm -f debian/choose-mirror-bin.templates

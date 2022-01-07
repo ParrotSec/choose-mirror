@@ -15,6 +15,18 @@ if [ -z "$DEB_HOST_ARCH" ]; then
 	DEB_HOST_ARCH="$(dpkg-architecture -qDEB_HOST_ARCH)"
 fi
 
+if [ "$(cat debian/port_architecture)" = 1 ]; then
+	set_debian_ports() {
+		perl -pe 'if (m,http/directory$,) { $found = 1; } elsif ($found and /^Default:/) { s/\/debian\/$/\/debian-ports\//; $found = 0; }' | \
+		perl -pe 'if (m,https/directory$,) { $found = 1; } elsif ($found and /^Default:/) { s/\/debian\/$/\/debian-ports\//; $found = 0; }' | \
+		perl -pe 'if (m,ftp/directory$,) { $found = 1; } elsif ($found and /^Default:/) { s/\/debian\/$/\/debian-ports\//; $found = 0; }'
+	}
+else
+	set_debian_ports() {
+		cat
+	}
+fi
+
 # Get the English names for the country codes in the list
 country_names() {
 	# Ensure commas in country names end up escaped
@@ -46,6 +58,7 @@ printf "Insert the lists of choices into the templates file..."
 		echo
 	done
 ) | debian/templates-build.pl "$DEB_HOST_ARCH" | \
+    set_debian_ports | \
     perl -pe 'if (m,http/countries$,) { $found = 2; } elsif ($found and /^Choices-C:/ && length "'"$HTTPCODECHOICES"'") { s/$/, '"$HTTPCODECHOICES"'/; $found -= 1; }  elsif ($found and /^__Choices:/ && length "'"$HTTPCHOICES"'") { s/$/'"$HTTPCHOICES"'/; $found -= 1; }' | \
     perl -pe 'if (m,https/countries$,) { $found = 2; } elsif ($found and /^Choices-C:/ && length "'"$HTTPSCODECHOICES"'") { s/$/, '"$HTTPSCODECHOICES"'/; $found -= 1; }  elsif ($found and /^__Choices:/ && length "'"$HTTPSCHOICES"'") { s/$/'"$HTTPSCHOICES"'/; $found -= 1; }' | \
     perl -pe 'if (m,ftp/countries$,) { $found = 2; } elsif ($found and /^Choices-C:/ && length "'"$FTPCODECHOICES"'") { s/$/, '"$FTPCODECHOICES"'/;  $found -= 1; } elsif ($found and /^__Choices:/ && length "'"$FTPCHOICES"'") { s/$/'"$FTPCHOICES"'/;  $found -= 1; }' \

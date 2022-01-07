@@ -1,1 +1,2 @@
 choose-mirror bin
+debian/port_architecture usr/lib/choose-mirror

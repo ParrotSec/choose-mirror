@@ -1,3 +1,150 @@
+choose-mirror (2.111+parrot1) lts-updates; urgency=medium
+
+  * Import new Debian release.
+  * Update Parrot mirrors.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 07 Jan 2022 17:24:38 +0100
+
+choose-mirror (2.111) unstable; urgency=medium
+
+  * Update Mirrors.masterlist. This might be the last time it gets updated
+    from the curated list fetched from Salsa (See: #989473).
+
+  [ Updated translations ]
+  * Croatian (hr.po) by Valentin Vidic
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 04 Jun 2021 19:13:46 +0200
+
+choose-mirror (2.110) unstable; urgency=medium
+
+  * Team upload
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Latvian (lv.po) by Tranzistors
+  * Tamil (ta.po) by Vasudevan Tirumurti
+  * Traditional Chinese (zh_TW.po) by louies0623
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 06 Apr 2021 11:20:24 +0200
+
+choose-mirror (2.109) unstable; urgency=medium
+
+  * Team upload
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Estonian (et.po) by Kristjan Räts
+  * Hindi (hi.po) by KushagraKarira
+  * Tamil (ta.po) by Vasudevan Tirumurti
+
+ -- Julien Cristau <jcristau@debian.org>  Thu, 28 Jan 2021 15:57:35 +0100
+
+choose-mirror (2.108) unstable; urgency=medium
+
+  * Team upload.
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Greek, Modern (1453-) (el.po) by Vangelis Skarmoutsos
+  * Basque (eu.po) by Iñaki Larrañaga Murgoitio
+  * Occitan (post 1500) (oc.po) by Quentin PAGÈS
+
+ -- Julien Cristau <jcristau@debian.org>  Fri, 20 Nov 2020 14:57:04 +0100
+
+choose-mirror (2.107) unstable; urgency=medium
+
+  * Updated dead links in comments from svn.debian.org to salsa.debian.org.
+    Includes updating all po|pot files.
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Basque (eu.po) by Iñaki Larrañaga Murgoitio
+  * Persian (fa.po) by سهیل خانعلی‌پور
+  * Marathi (mr.po) by Prachi Joshi
+  * Punjabi (Gurmukhi) (pa.po) by Aman ALam
+
+  [ Updated translations ]
+  * Kabyle (kab.po) by Slimane Selyan Amiri
+  * Occitan (oc.po) by Quentin PAGÈS
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 04 Oct 2020 23:23:10 +0200
+
+choose-mirror (2.106) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * French (fr.po) by Baptiste Jammet
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Kannada (kn.po) by Yogesh
+  * Polish (pl.po) by Bartosz Feński
+  * Serbian (sr.po) by Filipovic Dragan
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 20 Sep 2020 22:00:45 +0200
+
+choose-mirror (2.105) unstable; urgency=medium
+
+  * Update Mirrors.masterlist.  Hopefully for the last time today.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 26 Apr 2020 20:04:00 +0200
+
+choose-mirror (2.104) unstable; urgency=medium
+
+  * Update Mirrors.masterlist, once more with feeling.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 26 Apr 2020 19:57:18 +0200
+
+choose-mirror (2.103) unstable; urgency=medium
+
+  * Update Mirrors.masterlist, with fixed architecture lists.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 26 Apr 2020 19:52:18 +0200
+
+choose-mirror (2.102) unstable; urgency=medium
+
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Dutch (nl.po) by Frans Spiesschaert
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 26 Apr 2020 19:32:28 +0200
+
+choose-mirror (2.101) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * Update Mirrors.masterlist.
+  * mirrorlist: Make ports architectures use the Ports field. Note that an
+    architecture is a port in usr/lib/choose-mirror/port_architecture
+    (Closes: Bug#879130).
+  * mktemplates: Make ports architectures default to debian-ports/ mirror
+    directory.
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 27 Nov 2019 12:33:18 +0100
+
+choose-mirror (2.100) unstable; urgency=medium
+
+  * Team upload
+
+  [ Cyril Brulebois ]
+  * Remove Christian Perrier from Uploaders, with many thanks for all
+    his contributions over the years! (Closes: #927485)
+
+  [ Samuel Thibault ]
+  * Make hurd-i386 use ports mirror.
+  * Use "deb.debian.org" as default hostname for custom HTTP mirror.
+
+  [ Holger Wansing ]
+  * Add comment for translators, to keep main menu entry below a 55 columns
+    limit. This updates all po|pot files.
+
+  [ Updated translations ]
+  * Croatian (hr.po) by gogogogi
+  * Portuguese (pt.po) by Miguel Figueiredo
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 07 Oct 2019 20:31:20 +0200
+
 choose-mirror (2.99+parrot4) rolling; urgency=medium
 
   * Update default mirror

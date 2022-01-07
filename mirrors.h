@@ -28,21 +28,20 @@ struct mirror_t {
 /* Stack of suites */
 static const char suites[][SUITE_LENGTH] = {
 	/* higher preference */
-	"lts",
-	"lts-updates",
-	"lts-security",
-	"rolling",
-	"rolling-testing"
+	"oldstable",
+	"stable",
+	"testing",
+	"unstable"
 	/* lower preference */
 };
 
 /*
- * Allow for four more releases than the number of suites:
+ * Allow for two more releases than the number of suites:
  * - all suites
  * - default release (if not in suites)
  * - NULL list terminator
  */
-#define MAXRELEASES (sizeof(suites)/SUITE_LENGTH + 4)
+#define MAXRELEASES (sizeof(suites)/SUITE_LENGTH + 2)
 
 /*
  * Data structure containing information on releases supported by a mirror

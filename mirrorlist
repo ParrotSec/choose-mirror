@@ -83,17 +83,6 @@ for (my $id = 0; $id < @data; $id++) {
 # However, if a country has no push-primary or secondary mirrors, its leaf
 # mirrors are put before geodns, since we do not want to default to a
 # geodns mirror that will likely not be in the country.
-#
-# == NOTE FOR PARROT OS ==
-# In Parrot OS  we give more priority to our primary GeoDNS mirror, since it
-# redirects automatically to the nearest mirror available after performing
-# health checks and only if that mirror provides the files required by the user.
-# The new order is the following:
-# Priority 5: GeoDNS
-# Priority 4: push-primary
-# Priority 3: push
-# Priority 2: leaf
-# Priority 1: everything else
 my %cc_has_push_mirror;
 foreach my $id (0..$#data) {
 	my $cc = $data[$id]->{country};
@@ -105,23 +94,38 @@ foreach my $id (0..$#data) {
 	my $cc = $data[$id]->{country};
 	my $rating=0;
 	if (exists $data[$id]->{type}) {
-	        $rating=5 if $data[$id]->{type} =~ /geodns/i;
-	        $rating=4 if $data[$id]->{type} =~ /push-primary/i;
-	        $rating=3 if $data[$id]->{type} =~ /push/i;
-	        $rating=2 if $data[$id]->{type} =~ /leaf/i;
+	        $rating=1 if $data[$id]->{type} =~ /geodns/i;
+	        $rating=4 if $data[$id]->{type} =~ /push/i;
+                $rating=5 if $data[$id]->{type} =~ /push-primary/i;
         }
 	if (! $rating && ! $cc_has_push_mirror{$cc}) {
-		$rating=1;
+		$rating=2;
 	}
 	$data[$id]->{rating}=$rating;
+}
+
+# Defaults for released architectures
+my $archive = 'archive';
+
+# Is $hostarch a port architecture ?
+# Such architectures appear in a Ports-architecture: field
+foreach my $id (0..$#data) {
+	if (exists $data[$id]->{'ports-architecture'}) {
+		my @arches = split ' ', $data[$id]->{'ports-architecture'};
+		my %arches = map { $_ => 1 } @arches;
+		if (exists $arches{$hostarch} or exists $arches{'!'.$hostarch}) {
+			$archive = 'ports';
+			last;
+		}
+	}
 }
 
 # Filter out mirrors that don't carry the target architecture.
 my @newdata;
 foreach my $id (0..$#data) {
-	if (exists $data[$id]->{'archive-architecture'} &&
-	    $data[$id]->{'archive-architecture'} ne "any") {
-		my @arches = split ' ', $data[$id]->{'archive-architecture'};
+	if (exists $data[$id]->{"$archive-architecture"} &&
+	    $data[$id]->{"$archive-architecture"} ne "any") {
+		my @arches = split ' ', $data[$id]->{"$archive-architecture"};
 		if (grep /^!/, @arches) {
 			my %notarches = map { substr($_, 1) => 1 } grep /^!/, @arches;
 			next if exists $notarches{$hostarch};
@@ -138,7 +142,7 @@ if ($type =~ /(.*)list/) {
 	my $type=$1;
  	open (LIST, ">debian/${type}list-countries") or die "debian/${type}list-countries: $!";
 	foreach my $id (0..$#data) {
-		next unless exists $data[$id]->{"archive-$type"} and
+		next unless exists $data[$id]->{"$archive-$type"} and
 		                    exists $data[$id]->{country};
 		my $cc = $data[$id]->{country};
 		die "Error: country code '$cc' does not occur in iso-3166 table"
@@ -149,6 +153,15 @@ if ($type =~ /(.*)list/) {
 		print LIST "$countries{$country}\t${country}\n";
 	}
 	close LIST;
+}
+elsif ($type eq "port_architecture") {
+	open(OUT,"> debian/port_architecture") || die "Unable to write debian/port_architecture\n";
+	if ($archive eq 'ports') {
+		print OUT "1";
+	} else {
+		print OUT "0";
+	}
+	close OUT;
 }
 else {
 	open (OUT, ">mirrors_$type.h") or die "mirrors_$type.h: $!";
@@ -166,13 +179,13 @@ else {
 		else {
 			$cc=$q.$data[$id]->{country}.$q;
 		}
-		next unless exists $data[$id]->{"archive-$type"} and defined $cc;
-		if (! exists $data[$id]->{'archive-architecture'}) {
-			print STDERR "warning: missing archive-architecture for mirror ".$data[$id]->{site}."; assuming it contains all architectures.\n";
+		next unless exists $data[$id]->{"$archive-$type"} and defined $cc;
+		if (! exists $data[$id]->{"$archive-architecture"}) {
+			print STDERR "warning: missing $archive-architecture for mirror ".$data[$id]->{site}."; assuming it contains all architectures.\n";
 		}
 		print OUT "\t{",
 			  join(", ", $q.$data[$id]->{site}.$q, $cc,
-				$q.$data[$id]->{"archive-$type"}.$q),
+				$q.$data[$id]->{"$archive-$type"}.$q),
 			  "},\n";
 	}
 	print OUT "\t{NULL, NULL, NULL}\n";

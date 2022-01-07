@@ -1,4 +1,4 @@
-Site: deb.parrotsec.org
+Site: deb.parrot.sh
 Type: GeoDNS
 Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
@@ -9,18 +9,54 @@ Security-http: /parrot-security/
 Security-https: /parrot-security/
 Comment: Main Repository hosted on Parrot CDN Servers
 
-Site: mirror.parrotsec.org
+Site: mirror.parrot.sh
+Type: GeoDNS
+Archive-architecture: amd64 armhf arm64 i386
+Archive-http: /direct/parrot/
+Archive-https: /direct/parrot/
+Security-architecture: amd64 i386 arm64 armhf
+Security-http: /parrot-security/
+Security-https: /parrot-security/
+Comment: Edge CDN hosted by Cloudflare
+
+Site: azure.deb.parrot.sh
 Type: GeoDNS
 Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
 Archive-https: /parrot/
-Archive-rsync: parrot/
 Security-architecture: amd64 i386 arm64 armhf
 Security-http: /parrot-security/
 Security-https: /parrot-security/
-Comment: Backup Repository hosted by Cloudflare
+Comment: Edge CDN hosted by Azure
 
-Site: ${CC}.deb.parrotsec.org
+Site: mirrors.aliyun.com
+Type: GeoDNS
+Archive-architecture: amd64 armhf arm64 i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Comment: Worldwide mirror hosted by AlibabaCloud
+
+Site: aws.deb.parrot.sh
+Type: GeoDNS
+Archive-architecture: amd64 armhf arm64 i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Security-architecture: amd64 i386 arm64 armhf
+Security-http: /parrot-security/
+Security-https: /parrot-security/
+Comment: Edge CDN hosted by AWS
+
+Site: bunnny.deb.parrot.sh
+Type: GeoDNS
+Archive-architecture: amd64 armhf arm64 i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Security-architecture: amd64 i386 arm64 armhf
+Security-http: /parrot-security/
+Security-https: /parrot-security/
+Comment: Edge CDN hosted by BunnyCDN
+
+Site: ${CC}.deb.parrot.sh
 Type: GeoDNS
 Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
@@ -76,20 +112,6 @@ Archive-http: /pub/parrotos
 Archive-https: /pub/parrotos
 Country: US United States
 
-Site: mirror.sfo12.us.leaseweb.net
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Archive-https: /parrot/
-Country: US United States
-
-Site: mirror.mia11.us.leaseweb.net
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Archive-https: /parrot/
-Country: US United States
-
 Site: mirror.wdc1.us.leaseweb.net
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
@@ -97,23 +119,7 @@ Archive-http: /parrot/
 Archive-https: /parrot/
 Country: US United States
 
-Site: mirror.dal10.us.leaseweb.net
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Archive-https: /parrot/
-Country: US United States
-
-
-
-Site: muug.ca
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /mirror/parrot/
-Archive-https: /mirror/parrot/
-Country: CA Canada
-
-Site: parrot.ca.mirror.cythin.com
+Site: mirror.0xem.ma
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
@@ -150,107 +156,30 @@ Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Country: BR Brazil
 
-Site: aws-br.deb.parrotsec.org
-Type: push
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Archive-https: /parrot/
-Country: BR Brazil
 
 
 
-
-
-Site: mi.mirror.garr.it
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-ftp: /mirrors/parrot/
-Archive-http: /mirrors/parrot/
-Archive-https: /mirrors/parrot/
-Archive-rsync:  parrot/
-Maintainer: mirror-service@garr.it
-Country: IT Italy
-Location: Milano
-Sponsor: GARR/CILEA http://mirror.garr.it/
-
-Site: na.mirror.garr.it
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-ftp: /mirrors/parrot/
-Archive-http: /mirrors/parrot/
-Archive-https: /mirrors/parrot/
-Archive-rsync:  parrot/
-Maintainer: mirror-service@garr.it
-Country: IT Italy
-Location: Napoli
-Sponsor: GARR/CILEA http://mirror.garr.it/
-
-Site: ba.mirror.garr.it
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-ftp: /mirrors/parrot/
-Archive-http: /mirrors/parrot/
-Archive-https: /mirrors/parrot/
-Archive-rsync:  parrot/
-Maintainer: mirror-service@garr.it
-Country: IT Italy
-Location: Bari
-Sponsor: GARR/CILEA http://mirror.garr.it/
-
-Site: rm.mirror.garr.it
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-ftp: /mirrors/parrot/
-Archive-http: /mirrors/parrot/
-Archive-https: /mirrors/parrot/
-Archive-rsync:  parrot/
-Maintainer: mirror-service@garr.it
-Country: IT Italy
-Location: Roma
-Sponsor: GARR/CILEA http://mirror.garr.it/
-
-Site: bo.mirror.garr.it
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-ftp: /mirrors/parrot/
-Archive-http: /mirrors/parrot/
-Archive-https: /mirrors/parrot/
-Archive-rsync:  parrot/
-Maintainer: mirror-service@garr.it
-Country: IT Italy
-Location: Bologna
-Sponsor: GARR/CILEA http://mirror.garr.it/
-
-Site: ct.mirror.garr.it
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-ftp: /mirrors/parrot/
-Archive-http: /mirrors/parrot/
-Archive-https: /mirrors/parrot/
-Archive-rsync:  parrot/
-Maintainer: mirror-service@garr.it
-Country: IT Italy
-Location: Catania
-Sponsor: GARR/CILEA http://mirror.garr.it/
-
-Site: mirror.udupalermo.it
-Type: push
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Archive-https: /parrot/
-Country: IT Italy
 
 Site: parrot.mirror.garr.it
-Type: push
+Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
+Archive-ftp: /mirrors/parrot/
 Archive-http: /mirrors/parrot/
 Archive-https: /mirrors/parrot/
+Archive-rsync:  parrot/
+Maintainer: mirror-service@garr.it
 Country: IT Italy
-
-
+Sponsor: GARR/CILEA http://mirror.garr.it/
 
 
 Site: parrot.mirror.cythin.com
+Type: push
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Country: FR France
+
+Site: parrot-mirror.iriseden.eu
 Type: push
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
@@ -280,16 +209,25 @@ Archive-http: /parrot/
 Archive-https: /parrot/
 Country: DE Germany
 
-
-
-Site: mirror.ams1.nl.leaseweb.net
-Type: leaf
+Site: mirror.pyratelan.org
+Type: push
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Archive-https: /parrot/
-Country: NL Netherlands
+Country: DE Germany
+
+
+
+
 
 Site: ftp.nluug.nl
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /os/Linux/distr/parrot/
+Archive-https: /os/Linux/distr/parrot/
+Country: NL Netherlands
+
+Site: mirror.lyrahosting.com
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /os/Linux/distr/parrot/
@@ -359,17 +297,16 @@ Archive-https: /mirrors/linux/parrot/
 Country: HU Hungary
 
 
-
-Site: turkey.archive.parrotsec.org
+Site: mirror.cspacehosting.com
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrot/
-Archive-https: /parrot/
-Country: TR Turkey
+Archive-http: /parrotsec/
+Archive-https: /parrotsec/
+Country: EE Estonia
 
 
 
-Site: parrotsec.volia.net
+Site: parrot.astra.in.ua
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /
@@ -392,6 +329,13 @@ Archive-http: /parrot/
 Archive-https: /parrot/
 Country: RU Russian Federation
 
+Site: mirror.surf
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Country: RU Russian Federation
+
 
 
 Site: mirror.yandex.ru
@@ -400,14 +344,6 @@ Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /mirrors/parrot/
 Archive-https: /mirrors/parrot/
 Country: UZ Uzbekistan
-
-
-
-Site: mirror.amberit.com.bd
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /parrotsec/
-Country: BD Bangladesh
 
 
 
@@ -482,15 +418,6 @@ Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Archive-https: /parrot/
 Country: CN China
-
-
-
-Site: parrot.asis.ai
-Type: leaf
-Archive-architecture: amd64 arm64 armhf i386
-Archive-http: /
-Archive-https: /
-Country: IR Iran, Islamic Republic of
 
 
 
