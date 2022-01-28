@@ -4,9 +4,6 @@ Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
 Archive-https: /parrot/
 Archive-rsync: parrot/
-Security-architecture: amd64 i386 arm64 armhf
-Security-http: /parrot-security/
-Security-https: /parrot-security/
 Comment: Main Repository hosted on Parrot CDN Servers
 
 Site: mirror.parrot.sh
@@ -14,9 +11,6 @@ Type: GeoDNS
 Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /direct/parrot/
 Archive-https: /direct/parrot/
-Security-architecture: amd64 i386 arm64 armhf
-Security-http: /parrot-security/
-Security-https: /parrot-security/
 Comment: Edge CDN hosted by Cloudflare
 
 Site: azure.deb.parrot.sh
@@ -24,9 +18,6 @@ Type: GeoDNS
 Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
 Archive-https: /parrot/
-Security-architecture: amd64 i386 arm64 armhf
-Security-http: /parrot-security/
-Security-https: /parrot-security/
 Comment: Edge CDN hosted by Azure
 
 Site: mirrors.aliyun.com
@@ -41,19 +32,13 @@ Type: GeoDNS
 Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
 Archive-https: /parrot/
-Security-architecture: amd64 i386 arm64 armhf
-Security-http: /parrot-security/
-Security-https: /parrot-security/
 Comment: Edge CDN hosted by AWS
 
-Site: bunnny.deb.parrot.sh
+Site: bunny.deb.parrot.sh
 Type: GeoDNS
 Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
 Archive-https: /parrot/
-Security-architecture: amd64 i386 arm64 armhf
-Security-http: /parrot-security/
-Security-https: /parrot-security/
 Comment: Edge CDN hosted by BunnyCDN
 
 Site: ${CC}.deb.parrot.sh
@@ -62,9 +47,6 @@ Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
 Archive-https: /parrot/
 Archive-rsync: parrot/
-Security-architecture: amd64 i386 arm64 armhf
-Security-http: /parrot-security/
-Security-https: /parrot-security/
 Comment: Country-based Parrot CDN repository
 
 Site: ${CNAME}.deb.parrotsec.org
@@ -73,16 +55,7 @@ Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /parrot/
 Archive-https: /parrot/
 Archive-rsync: parrot/
-Security-architecture: amd64 i386 arm64 armhf
-Security-http: /parrot-security/
-Security-https: /parrot-security/
 Comment: Country-based Parrot CDN repository
-
-
-
-
-
-
 
 
 Site: mirrors.mit.edu
