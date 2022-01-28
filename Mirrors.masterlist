@@ -41,27 +41,12 @@ Archive-http: /parrot/
 Archive-https: /parrot/
 Comment: Edge CDN hosted by BunnyCDN
 
-Site: ${CC}.deb.parrot.sh
-Type: GeoDNS
-Archive-architecture: amd64 armhf arm64 i386
-Archive-http: /parrot/
-Archive-https: /parrot/
-Archive-rsync: parrot/
-Comment: Country-based Parrot CDN repository
-
-Site: ${CNAME}.deb.parrotsec.org
-Type: GeoDNS
-Archive-architecture: amd64 armhf arm64 i386
-Archive-http: /parrot/
-Archive-https: /parrot/
-Archive-rsync: parrot/
-Comment: Country-based Parrot CDN repository
-
 
 Site: mirrors.mit.edu
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
+Archive-https: /parrot/
 Country: US United States
 
 Site: mirror.clarkson.edu
@@ -146,14 +131,14 @@ Sponsor: GARR/CILEA http://mirror.garr.it/
 
 
 Site: parrot.mirror.cythin.com
-Type: push
+Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Archive-https: /parrot/
 Country: FR France
 
 Site: parrot-mirror.iriseden.eu
-Type: push
+Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Archive-https: /parrot/
@@ -162,7 +147,7 @@ Country: FR France
 
 
 Site: ftp.halifax.rwth-aachen.de
-Type: push-primary
+Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrotsec/
 Archive-https: /parrotsec/
@@ -176,14 +161,14 @@ Archive-https: /pub/Mirrors/archive.parrotsec.org/
 Country: DE Germany
 
 Site: mirror.fra10.de.leaseweb.net
-Type: push
+Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Archive-https: /parrot/
 Country: DE Germany
 
 Site: mirror.pyratelan.org
-Type: push
+Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Archive-https: /parrot/
@@ -393,12 +378,10 @@ Archive-https: /parrot/
 Country: CN China
 
 
-
 Site: mirror.lagoon.nc
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /pub/parrot/
 Archive-https: /pub/parrot/
 Country: NC New Caledonia
-IPv6: no
 
