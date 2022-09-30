@@ -27,13 +27,6 @@ Archive-http: /parrot/
 Archive-https: /parrot/
 Comment: Worldwide mirror hosted by AlibabaCloud
 
-Site: aws.deb.parrot.sh
-Type: GeoDNS
-Archive-architecture: amd64 armhf arm64 i386
-Archive-http: /parrot/
-Archive-https: /parrot/
-Comment: Edge CDN hosted by AWS
-
 Site: bunny.deb.parrot.sh
 Type: GeoDNS
 Archive-architecture: amd64 armhf arm64 i386
@@ -41,6 +34,12 @@ Archive-http: /parrot/
 Archive-https: /parrot/
 Comment: Edge CDN hosted by BunnyCDN
 
+Site: gcore.deb.parrot.sh
+Type: GeoDNS
+Archive-architecture: amd64 armhf arm64 i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Comment: Edge CDN hosted by Gcore
 
 Site: mirrors.mit.edu
 Type: leaf
@@ -195,8 +194,8 @@ Country: NL Netherlands
 
 
 Site: ftp.belnet.be
-Archive-http: /pub/archive.parrotsec.org/
-Archive-https: /pub/archive.parrotsec.org/
+Archive-http: /pub/archive.parrotsec.org/parrot/
+Archive-https: /pub/archive.parrotsec.org/parrot/
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: BE Belgium
