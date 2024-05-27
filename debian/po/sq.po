@@ -230,7 +230,7 @@ msgstr "futi vetë të dhënat"
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:2002
 msgid "US[ Default value for http]"
-msgstr "US[ Vlera e paracaktuar për http]"
+msgstr "US"
 
 #. Type: select
 #. Description
@@ -422,7 +422,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
-msgstr "US[ Vlera fillestare për ftp]"
+msgstr "US"
 
 #. Type: select
 #. Description

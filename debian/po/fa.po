@@ -26,8 +26,8 @@ msgstr ""
 "Project-Id-Version: fa sublevel1\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2020-10-24 17:09+0000\n"
-"Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
+"PO-Revision-Date: 2022-12-11 11:40+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -69,14 +69,14 @@ msgstr "فقط طعم‌های موجود در آینهٔ انتخاب شده ف
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
 msgid "Checking the Debian archive mirror"
-msgstr "امتحان شعبهٔ آرشیو دبیان"
+msgstr "بررسی آینهٔ بایگانی دبیان"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "پایین گذاری (دانلود) فایل‌های انتشار ..."
+msgstr "بارگیری پرونده‌های Release…"
 
 #. Type: boolean
 #. Description
@@ -203,7 +203,7 @@ msgstr "ناپایدار"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Debian archive"
-msgstr "انتخاب یکی از شعبه‌های آرشیو دبیان"
+msgstr "گزینش آینه‌ای ااز بایگانی دبیان"
 
 #. Type: select
 #. Choices
@@ -214,7 +214,7 @@ msgstr "انتخاب یکی از شعبه‌های آرشیو دبیان"
 #: ../choose-mirror-bin.templates.http-in:2001
 #: ../choose-mirror-bin.templates.ftp.sel-in:2001
 msgid "enter information manually"
-msgstr "ورود اطلاعات به صورت دستی"
+msgstr "ورود دستی اطّلاعات"
 
 #. Type: select
 #. Default
@@ -235,7 +235,7 @@ msgstr "ورود اطلاعات به صورت دستی"
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:2002
 msgid "US[ Default value for http]"
-msgstr "US"
+msgstr "IR"
 
 #. Type: select
 #. Description
@@ -246,7 +246,7 @@ msgstr "US"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Debian archive mirror country:"
-msgstr "کشور آرشیو آینه دریافت دبیان:"
+msgstr "کشور آینهٔ بایگانی دبیان:"
 
 #. Type: select
 #. Description
@@ -261,8 +261,8 @@ msgid ""
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"هدف آن است که یک آینه دریافت از مخازن دبیان که به شما نزدیک تر است یافت شود "
-"-- دقت کنید که همیشه نزدیک ترن کشور، یا حتی کشور شما بهترین انتخاب نیست."
+"هدف یافتن آینهٔ دبیانی است که به شبکه‌تان نزدیک باشد -- هشیار باشید که ممکن "
+"است کشورهای نزدیک یا حتا کشور خودتان، بهترین گزینه نباشد."
 
 #. Type: select
 #. Description
@@ -273,7 +273,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Debian archive mirror:"
-msgstr "آرشیو آینه دریافت دبیان:"
+msgstr "آینهٔ بایگانی دبیان:"
 
 #. Type: select
 #. Description
@@ -288,16 +288,15 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"لطفا یکی از آینه‌های دریافت دبیان را انتخاب کنید. در صورتی که نمی‌دانید کدام "
-"آینه ارتباط اینترنتی مناسب تری برای شما دارد، باید آینه دریافت موجود در کشور "
-"یا منطقه خودتان را انتخاب کنید."
+"لطفاً آینهٔ بایگانی دبیانی را برگزینید.اگر نمی‌دانید کدام آینه بهترین ارتباط "
+"اینترنتی را برایتان دارد، باید آینه‌ای را در کشور یا ناحیهٔ خودتان برگزینید."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
 msgid "Usually, deb.debian.org is a good choice."
-msgstr "معمولا deb.debian.org یک انتخاب مناسب است."
+msgstr "معمولاً deb.debian.org گزینهٔ خوبیست."
 
 #. Type: string
 #. Description
@@ -308,7 +307,7 @@ msgstr "معمولا deb.debian.org یک انتخاب مناسب است."
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid "Debian archive mirror hostname:"
-msgstr "hostname آرشیو آینه دریافت دبیان:"
+msgstr "نام میزبان آینهٔ بایگانی دبیان:"
 
 #. Type: string
 #. Description
@@ -320,9 +319,7 @@ msgstr "hostname آرشیو آینه دریافت دبیان:"
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
 "Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr ""
-"لطفاً hostname مربوط به آینه دریافت، که دبیان باید از آن دانلود شود را وارد "
-"کنید."
+msgstr "لطفاً نام میزبان آینه‌ای که دبیان باید از آن بارگیری شود را وارد کنید."
 
 #. Type: string
 #. Description
@@ -335,7 +332,9 @@ msgstr ""
 msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
-msgstr "پورت غیر معمول و جایگزین می‌تواند به صورت [hostname]:[port] تعریف شود."
+msgstr ""
+"با استفاده از قالب استاندارد ‪[hostname]:[port]‬ می‌توان درگاهی جایگزین را مشخّص "
+"کرد."
 
 #. Type: string
 #. Description
@@ -360,7 +359,7 @@ msgstr "لطفاً شاخه‌ای را که آینهٔ بایگانی دبیا�
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "اطلاعات پراکسی HTTP(اگر پروکسی ندارید خالی بماند):"
+msgstr "اطّلاعات پیشکار HTTP (خالی برای هیچ):"
 
 #. Type: string
 #. Description
@@ -370,8 +369,8 @@ msgid ""
 "If you need to use a HTTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"اگر برای ارتباط با اینترنت احتیاج به تنظیم پراکسی دارید؛ این اطلاعات را "
-"اینجا وارد کنید در غیر این صورت خالی بگذازید."
+"اگر برای دسترسی به جهان بیرون نیاز به استفاده از پیشکار HTTP دارید، اطّلاعات "
+"پیشکار را این‌جا وارد کرده؛ وگرنه خالی بگذارید."
 
 #. Type: string
 #. Description
@@ -385,8 +384,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"اطلاعات مربوط به پراکسی باید به شکل استاندارد «http://[[user][:pass]@]host[:"
-"port]/» وارد شود."
+"اطّلاعات پیشکار باید به شکل استاندارد ‪http://[[user][:pass]@]host[:port]/‬ "
+"وارد شود."
 
 #. Type: string
 #. Description

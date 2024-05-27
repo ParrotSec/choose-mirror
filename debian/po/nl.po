@@ -21,14 +21,14 @@
 # Freek de Kruijf <f.de.kruijf@hetnet.nl>, 2006, 2007, 2008, 2009, 2010, 2011.
 # Taco Witte <tcwitte@cs.uu.nl>, 2004.
 # Reinout van Schouwen <reinouts@gnome.org>, 2007.
-# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2014-2020.
+# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2014-2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2020-03-30 22:36+0200\n"
+"PO-Revision-Date: 2022-01-08 21:43+0100\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -100,7 +100,7 @@ msgid ""
 "different mirror that does support the correct version."
 msgstr ""
 "De opgegeven (standaard) Debian versie (${RELEASE}) is niet beschikbaar op "
-"de geselecteerde spiegelserver. U kunt verder gaan en een andere versie "
+"de geselecteerde spiegelserver. U kunt verdergaan en een andere versie "
 "selecteren voor uw installatie, maar normaliter zal de juiste keuze zijn om "
 "terug te gaan en een andere spiegelserver te selecteren die wel de juiste "
 "versie heeft."

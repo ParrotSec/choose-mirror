@@ -29,14 +29,16 @@
 # Marcin Owsiany <porridge@debian.org>, 2011.
 # Michał Kułach <michal.kulach@gmail.com>, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 # Bartosz Feński <fenio@debian.org>, 2020.
+# Matthaiks <kitynska@gmail.com>, 2021, 2022.
+# Łukasz Dulny <BartekChom@poczta.onet.pl>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2020-09-11 20:10+0000\n"
-"Last-Translator: Bartosz Feński <fenio@debian.org>\n"
+"PO-Revision-Date: 2023-04-28 19:28+0000\n"
+"Last-Translator: Matthaiks <kitynska@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -62,10 +64,10 @@ msgid ""
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian występuje w kilku wersjach. Stabilna jest bardzo dobrze przetestowana "
-"i rzadko się zmienia. Niestabilna jest nieprzetestowana i często zmieniana. "
-"Testowa jest czymś pomiędzy, zawiera wiele nowinek z niestabilnej wersji "
-"jeśli nie są zbyt niedopracowane."
+"Debian występuje w kilku wersjach. Stabilna jest dobrze przetestowana i "
+"rzadko się zmienia. Niestabilna jest nieprzetestowany i często się zmienia. "
+"Testowa to wersja pomiędzy, która otrzymuje wiele nowych wersji z "
+"niestabilnej, jeśli nie są one zbyt wadliwe."
 
 #. Type: select
 #. Description
@@ -373,7 +375,7 @@ msgstr ""
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "Dane serwera pośredniczącego (puste jeśli brak):"
+msgstr "Dane serwera pośredniczącego (puste, jeśli brak):"
 
 #. Type: string
 #. Description
@@ -383,8 +385,8 @@ msgid ""
 "If you need to use a HTTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"Jeśli korzystasz z serwera pośredniczącego http w celu dostępu do świata "
-"zewnętrznego, podaj tu jego dane. W przeciwnym wypadku pozostaw to pole "
+"Jeśli korzystasz z serwera pośredniczącego HTTP w celu dostępu do świata "
+"zewnętrznego, podaj tu jego dane. W przeciwnym przypadku pozostaw to pole "
 "puste."
 
 #. Type: string
@@ -407,7 +409,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.base-in:4001
 msgid "FTP proxy information (blank for none):"
-msgstr "Dane serwera pośredniczącego FTP (puste jeśli brak):"
+msgstr "Dane serwera pośredniczącego FTP (puste, jeśli brak):"
 
 #. Type: string
 #. Description
@@ -418,8 +420,7 @@ msgid ""
 "information here. Otherwise, leave this blank."
 msgstr ""
 "Jeśli korzystasz z serwera pośredniczącego FTP w celu dostępu do świata "
-"zewnętrznego, podaj tu jego dane. W przeciwnym wypadku pozostaw to pole "
-"puste."
+"zewnętrznego, podaj tu jego dane. W przeciwnym razie pozostaw to pole puste."
 
 #. Type: select
 #. Default

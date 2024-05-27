@@ -25,14 +25,14 @@ msgstr ""
 "Project-Id-Version: debian-installer.2006071\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2018-01-04 06:20+0000\n"
-"Last-Translator: Taya <taya13@gmail.com>\n"
+"PO-Revision-Date: 2023-04-09 20:53+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Type: select
 #. Description
@@ -114,7 +114,7 @@ msgstr "არქივის სარკის პრობლემა"
 msgid ""
 "An error has been detected while trying to use the specified Debian archive "
 "mirror."
-msgstr "შრიფტის ზომა:"
+msgstr "შეცდომა მითითებული Debian-ს არქივის სარკის გამოყენების მცდელობისას."
 
 #. Type: error
 #. Description
@@ -147,7 +147,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
-msgstr "შრიფტის ზომა:"
+msgstr "შეამოწმეთ მითითებული სარკე ან სხვა სცადეთ."
 
 #. Type: error
 #. Description
@@ -297,7 +297,7 @@ msgstr ""
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
 msgid "Usually, deb.debian.org is a good choice."
-msgstr "ხშირად კარგი არჩევანია deb.debian.org"
+msgstr "ხშირად deb.debian.org კარგი არჩევანია."
 
 #. Type: string
 #. Description
@@ -432,7 +432,7 @@ msgstr "GE"
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "ხშირად კარგი არჩევანია <თქვენი ქვეყნის კოდი>.debian.org"
+msgstr "ხშირად კარგი არჩევანია ftp.<თქვენი ქვეყნის კოდი>.debian.org."
 
 #. Type: select
 #. Description

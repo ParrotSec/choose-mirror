@@ -18,6 +18,7 @@
 # Ayesha Akhtar <ayesha@ankur.org.bd>, 2010.
 # Israt Jahan <israt@ankur.org.bd>, 2010.
 # Zenat Rahnuma <zenat@ankur.org.bd>, 2011.
+# Indrani Roy <indrani@scriptek.co.in>, 2021.
 #
 # Translations from iso-codes:
 #   Debian Foundation, 2005.
@@ -32,9 +33,9 @@ msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2019-08-28 18:10+0000\n"
-"Last-Translator: leela <53352@protonmail.com>\n"
-"Language-Team: Bengali \n"
+"PO-Revision-Date: 2023-05-14 17:53+0000\n"
+"Last-Translator: Indrani Roy <indrani@scriptek.co.in>\n"
+"Language-Team: Bengali\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -83,7 +84,7 @@ msgstr "ডেবিয়ান আর্কাইভ মিরর (mirror) যা
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "রিলিজ ফাইল ডাউনলোড করা হচ্ছে..."
+msgstr "রিলিজ ফাইল ডাউনলোড করা হচ্ছে…"
 
 #. Type: boolean
 #. Description
@@ -367,7 +368,7 @@ msgstr ""
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "এইচ.টি.টি.পি. প্রক্সি তথ্য (কিছু না হলে ফাঁকা থাকবে):"
+msgstr "HTTP প্রক্সি তথ্য (কিছু না হলে ফাঁকা থাকবে):"
 
 #. Type: string
 #. Description
@@ -377,8 +378,8 @@ msgid ""
 "If you need to use a HTTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"স্থানীয় নেটওয়ার্কের বাইরে যোগাযোগ করতে হলে আপনাকে যদি কোন এইচ.টি.টি.পি. প্রক্সি "
-"ব্যবহার করতে হয়, তবে সেই প্রক্সির তথ্য এখানে লিখুন। অন্যথায় এটি ফাঁকা রাখুন।"
+"স্থানীয় নেটওয়ার্কের বাইরে যোগাযোগ করতে হলে আপনাকে যদি কোন HTTP প্রক্সি ব্যবহার "
+"করতে হয়, তবে সেই প্রক্সির তথ্য এখানে লিখুন। অন্যথায় এটি ফাঁকা রাখুন।"
 
 #. Type: string
 #. Description

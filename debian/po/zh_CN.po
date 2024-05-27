@@ -28,15 +28,18 @@
 #   Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
 # YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
 # Yangfl <mmyangfl@gmail.com>, 2017.
-# Boyuan Yang <073plan@gmail.com>, 2018.
+# Boyuan Yang <073plan@gmail.com>, 2018, 2019, 2020.
+# 玉堂白鹤 <yjwork@qq.com>, 2020.
+# TTT DEAL <ikmn2jlt@linshiyouxiang.net>, 2021.
+# Wenbin Lv <wenbin816@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2018-07-14 10:35+0000\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"PO-Revision-Date: 2022-04-17 17:12+0000\n"
+"Last-Translator: Wenbin Lv <wenbin816@gmail.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -61,7 +64,7 @@ msgid ""
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian 同时存在多个版本。稳定版 (stable) 是经过大量测试，很少更动的版本。不稳"
+"Debian 同时存在多个版本。稳定版 (stable) 是经过大量测试，很少变动的版本。不稳"
 "定版 (unstable) 是未经测试，变动非常频繁的版本。测试版 (testing) 则是介于两者"
 "之间的版本，它通常会从不稳定版中接收一些没太多问题的新版软件。"
 
@@ -70,14 +73,14 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Only flavors available on the selected mirror are listed."
-msgstr "只列出选中的镜像上可用的版本。"
+msgstr "只会列出选择的镜像站点上可用的版本。"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
 msgid "Checking the Debian archive mirror"
-msgstr "正在检查 Debian 仓库镜像"
+msgstr "正在检查 Debian 仓库镜像站点"
 
 #. Type: text
 #. Description
@@ -91,7 +94,7 @@ msgstr "正在下载 Release 文件..."
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid "Go back and try a different mirror?"
-msgstr "返回并尝试另一个镜像？"
+msgstr "返回并尝试另一个镜像站点？"
 
 #. Type: boolean
 #. Description
@@ -103,15 +106,16 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"选择的镜像上，指定的 (默认的) Debian 版本 (${RELEASE}) 不可用。可以继续并为您"
-"的安装选择另一个版本，但通常您应当返回，并选择另一个支持正确的版本的镜像。"
+"指定的 (默认的) Debian 版本 (${RELEASE}) 在选择的镜像站点上不可用。可以继续并"
+"选择另一个版本进行安装，但通常您应当返回，并选择另一个支持正确的版本的镜像站"
+"点。"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "无效的仓库镜像"
+msgstr "无效的仓库镜像站点"
 
 #. Type: error
 #. Description
@@ -120,7 +124,7 @@ msgstr "无效的仓库镜像"
 msgid ""
 "An error has been detected while trying to use the specified Debian archive "
 "mirror."
-msgstr "尝试使用指定的 Debian 仓库镜像时探测到错误。"
+msgstr "尝试使用指定的 Debian 仓库镜像站点时探测到错误。"
 
 #. Type: error
 #. Description
@@ -132,9 +136,9 @@ msgid ""
 "broken (for example because an invalid Release file was found); mirror does "
 "not support the correct Debian version."
 msgstr ""
-"此错误可能的原因是：指定了错误的镜像；镜像不可用 (可能是因为不可靠的网络连"
-"接)；镜像损坏 (例如，因为找到了无效的 Release 文件)；镜像不支持当前的 Debian "
-"版本。"
+"此错误可能的原因是：指定了错误的镜像站点；镜像站点不可用 (可能是因为不可靠的"
+"网络连接)；镜像站点损坏 (例如，因为找到了无效的 Release 文件)；镜像站点不支持"
+"正确的 Debian 版本。"
 
 #. Type: error
 #. Description
@@ -150,7 +154,7 @@ msgstr "更多的细节可以在 /var/log/syslog 或第 4 虚拟控制台找到�
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
-msgstr "请检查指定的镜像，或者换一个试试。"
+msgstr "请检查您指定的镜像站点，或者换一个试试。"
 
 #. Type: error
 #. Description
@@ -166,7 +170,9 @@ msgstr "此硬件架构不被支持"
 msgid ""
 "The specified Debian archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
-msgstr "指定的 Debian 归档镜像看起来并不支持您所用的硬件架构。请试用其他镜像。"
+msgstr ""
+"指定的 Debian 仓库镜像站点似乎并不支持您使用的硬件架构。请尝试使用其他镜像站"
+"点。"
 
 #. Type: text
 #. Description
@@ -203,7 +209,7 @@ msgstr "不稳定版"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Debian archive"
-msgstr "选择 Debian 仓库镜像"
+msgstr "选择 Debian 仓库镜像站点"
 
 #. Type: select
 #. Choices
@@ -246,7 +252,7 @@ msgstr "CN"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Debian archive mirror country:"
-msgstr "Debian 仓库镜像所在的国家："
+msgstr "Debian 仓库镜像站点所在的国家："
 
 #. Type: select
 #. Description
@@ -261,8 +267,8 @@ msgid ""
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"此选项的目的是找到网络上离您最近的镜像 -- 请注意，您的邻国，甚至您自己的国"
-"家，都不一定是最好的选择。"
+"此选项的目的是找到网络上离您最近的镜像站点 -- 请注意，您的邻国，甚至您自己的"
+"国家，都不一定是最好的选择。"
 
 #. Type: select
 #. Description
@@ -273,7 +279,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Debian archive mirror:"
-msgstr "Debian 仓库镜像："
+msgstr "Debian 仓库镜像站点："
 
 #. Type: select
 #. Description
@@ -288,8 +294,8 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"请选择一个 Debian 仓库镜像。如果您不知道哪个镜像与您之间的网络连接最好，请使"
-"用位于您的国家或地区的镜像。"
+"请选择一个 Debian 仓库镜像站点。如果您不知道哪个镜像站点与您之间的网络连接最"
+"好，请使用位于您的国家或地区的镜像站点。"
 
 #. Type: select
 #. Description
@@ -307,7 +313,7 @@ msgstr "通常情况下，deb.debian.org 会是一个较好的选择。"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid "Debian archive mirror hostname:"
-msgstr "请输入 Debian 仓库镜像的主机名："
+msgstr "请输入 Debian 仓库镜像站点的主机名："
 
 #. Type: string
 #. Description
@@ -319,7 +325,7 @@ msgstr "请输入 Debian 仓库镜像的主机名："
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
 "Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "请输入将要使用的 Debian 镜像的主机名。"
+msgstr "请输入将用于下载 Debian 的镜像站点的主机名。"
 
 #. Type: string
 #. Description
@@ -332,7 +338,7 @@ msgstr "请输入将要使用的 Debian 镜像的主机名。"
 msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
-msgstr "可以使用标准的 [主机名]:[端口] 格式来指定替代的端口。"
+msgstr "可以使用标准的 [主机名]:[端口] 格式来指定另一个端口。"
 
 #. Type: string
 #. Description
@@ -340,7 +346,7 @@ msgstr "可以使用标准的 [主机名]:[端口] 格式来指定替代的端�
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid "Debian archive mirror directory:"
-msgstr "Debian 仓库镜像目录："
+msgstr "Debian 仓库镜像站点目录："
 
 #. Type: string
 #. Description
@@ -350,14 +356,14 @@ msgstr "Debian 仓库镜像目录："
 msgid ""
 "Please enter the directory in which the mirror of the Debian archive is "
 "located."
-msgstr "请输入 Debian 仓库镜像所在的目录。"
+msgstr "请输入 Debian 仓库镜像站点所在的目录。"
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "HTTP 代理信息 (如果没有请留空)："
+msgstr "HTTP 代理信息 (如果没有请置空)："
 
 #. Type: string
 #. Description
@@ -381,7 +387,7 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"代理信息应按照“http://[[用户名][:密码]@]主机名[:端口]/”的标准格式给出。"
+"代理信息应按照 \"http://[[用户名][:密码]@]主机名[:端口]/\" 的标准格式给出。"
 
 #. Type: string
 #. Description
@@ -443,5 +449,5 @@ msgid ""
 "Please select the protocol to be used for downloading files. If unsure, "
 "select \"http\"; it is less prone to problems involving firewalls."
 msgstr ""
-"请选择下载文件时使用的协议。如果不确定，请选择“http”。即使有防火墙，它一般也"
-"不会出错。"
+"请选择下载文件时使用的协议。如果不确定，请选择 \"http\"。即使有防火墙，它一般"
+"也不会出错。"

@@ -13,8 +13,8 @@ Type: select
 Choices-C: ${CHOICES-C}
 Choices: ${CHOICES}
 # :sl2:
-_Description: Parrot version to install:
- Parrot comes in several flavors. Stable is well-tested and rarely changes.
+_Description: Debian version to install:
+ Debian comes in several flavors. Stable is well-tested and rarely changes.
  Unstable is untested and frequently changing. Testing is a middle ground,
  that receives many of the new versions from unstable if they are not too
  buggy.
@@ -28,7 +28,7 @@ Description: for internal use only
 Template: mirror/checking_title
 Type: text
 # :sl1:
-_Description: Checking the Parrot archive mirror
+_Description: Checking the Debian archive mirror
 
 Template: mirror/checking_download
 Type: text
@@ -49,13 +49,13 @@ Template: mirror/bad
 Type: error
 # :sl2:
 _Description: Bad archive mirror
- An error has been detected while trying to use the specified Parrot archive
+ An error has been detected while trying to use the specified Debian archive
  mirror.
  .
  Possible reasons for the error are: incorrect mirror specified; mirror is
  not available (possibly due to an unreliable network connection); mirror is
  broken (for example because an invalid Release file was found); mirror does
- not support the correct Parrot version.
+ not support the correct Debian version.
  .
  Additional details may be available in /var/log/syslog or on virtual console 4.
  .
@@ -65,11 +65,11 @@ Template: mirror/noarch
 Type: error
 # :sl3:
 _Description: Architecture not supported
- The specified Parrot archive mirror does not seem to support your
+ The specified Debian archive mirror does not seem to support your
  architecture. Please try a different mirror.
 
 
-Template: mirror/suites/stable
+Template: mirror/suites/lory
 Type: text
 # :sl2:
 _Description: stable
@@ -77,12 +77,8 @@ _Description: stable
 Template: mirror/suites/parrot
 Type: text
 # :sl2:
-_Description: stable
+_Description: parrot
 
-Template: mirror/suites/lts
-Type: text
-# :sl2:
-_Description: stable
 
 Template: debian-installer/choose-mirror/title
 Type: text

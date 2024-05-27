@@ -4,14 +4,15 @@ Template: mirror/http/countries
 Type: select
 Choices-C: manual
 # :sl1:
+#flag:partial
 __Choices: enter information manually
 #  Translators, you should put here the ISO 3166 code of a country
-#  which you know hosts at least one Parrot HTTP mirror. Please check
-#  that the country really has a Parrot HTTP mirror before putting a
+#  which you know hosts at least one Debian HTTP mirror. Please check
+#  that the country really has a Debian HTTP mirror before putting a
 #  random value here
 #
 #  First check that the country you mention here is listed in
-#  https://www.parrotsec.org/docs/mirror-list.html
+#  https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
 #
 #  BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
 #  
@@ -22,7 +23,7 @@ __Choices: enter information manually
 # :sl1:
 _Default: US[ Default value for http]
 # :sl1:
-_Description: Parrot archive mirror country:
+_Description: Debian archive mirror country:
  The goal is to find a mirror of the Parrot archive that is close to you on the network -- be
  aware that nearby countries, or even your own, may not be the best choice.
 
@@ -31,7 +32,7 @@ Type: select
 Choices: ${mirrors}
 Default: deb.parrot.sh
 # :sl1:
-_Description: Parrot archive mirror:
+_Description: Debian archive mirror:
  Please select a Parrot archive mirror. You should use a mirror in
  your country or region if you do not know which mirror has the best
  Internet connection to you.
@@ -43,7 +44,7 @@ Type: string
 Default: deb.parrot.sh
 # :sl1:
 _Description: Parrot archive mirror hostname:
- Please enter the hostname of the mirror from which Parrot will be downloaded.
+ Please enter the hostname of the mirror from which Debian will be downloaded.
  .
  An alternate port can be specified using the standard [hostname]:[port]
  format.

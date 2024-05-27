@@ -17,13 +17,13 @@
 # Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2009.
 # Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007, 2010.
 # Viktar Siarheichyk <viсs@eq.by>, 2014.
-# Viktar Siarheichyk <vics@fsfe.org>, 2014, 2015, 2017, 2018.
+# Viktar Siarheichyk <vics@fsfe.org>, 2014, 2015, 2017, 2018, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2018-07-10 13:44+0300\n"
+"PO-Revision-Date: 2023-04-27 15:36+0300\n"
 "Last-Translator: Viktar Siarheichyk <vics@eq.by>\n"
 "Language-Team: Belarusian <i18n@mova.org>\n"
 "Language: be\n"
@@ -260,7 +260,7 @@ msgid ""
 msgstr ""
 "Мэта - знайсці найбліжэйшы сеткавы вузел з люстэркам архіву Debian. Майце на "
 "ўвазе, што навакольныя краіны, і нават Ваша ўласная, не ва ўсіх выпадках "
-"забяспечваюць найлепшы доступ. "
+"забяспечваюць найлепшы доступ."
 
 #. Type: select
 #. Description
@@ -295,7 +295,7 @@ msgstr ""
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
 msgid "Usually, deb.debian.org is a good choice."
-msgstr "Звычайна добры выбар - deb.debian.org "
+msgstr "Звычайна добры выбар - deb.debian.org"
 
 #. Type: string
 #. Description
@@ -318,7 +318,7 @@ msgstr "Назва вузлу з люстэркам архіву Debian:"
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
 "Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "Калі ласка, увядзіце адрас люстэрка, з якога будзе спампаваны Debian. "
+msgstr "Калі ласка, увядзіце адрас люстэрка, з якога будзе спампаваны Debian."
 
 #. Type: string
 #. Description
@@ -430,7 +430,7 @@ msgstr "BY"
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "Звычайна добры выбар - ftp.<код Вашай краіны>.debian.org "
+msgstr "Звычайна добры выбар - ftp.<код Вашай краіны>.debian.org"
 
 #. Type: select
 #. Description

@@ -1,3 +1,134 @@
+choose-mirror (2.124) lory; urgency=medium
+
+  * Import new Debian release.
+  * Remove some old mirrors.
+  * Add local parrot mirrors.
+  * Add lory release.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 27 May 2024 02:36:10 +0200
+
+choose-mirror (2.123) unstable; urgency=medium
+
+  * Update Mirrors.masterlist.
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 24 May 2023 11:10:30 +0200
+
+choose-mirror (2.122) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Bengali (bn.po) by Indrani Roy
+  * Norwegian Nynorsk (nn.po) by Yngve Spjeld-Landro
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 21 May 2023 23:26:50 +0200
+
+choose-mirror (2.121) unstable; urgency=medium
+
+  [ Cyril Brulebois ]
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Polish (pl.po) by Matthaiks
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 13 May 2023 01:06:13 +0200
+
+choose-mirror (2.120) unstable; urgency=medium
+
+  [ Cyril Brulebois ]
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Georgian (ka.po) by Temuri Doghonadze
+  * Polish (pl.po) by Matthaiks
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 26 Apr 2023 01:00:04 +0200
+
+choose-mirror (2.119) unstable; urgency=medium
+
+  [ Cyril Brulebois ]
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Vietnamese (vi.po) by tictactoe
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 29 Mar 2023 14:21:22 +0200
+
+choose-mirror (2.118) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Spanish (es.po) by gallegonovato
+  * Macedonian (mk.po) by Kristijan Fremen Velkovski
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 15 Feb 2023 16:53:28 +0100
+
+choose-mirror (2.117) unstable; urgency=medium
+
+  * debian/choose-mirror-bin.templates.http-in: Enable partial translation for
+    country list.
+  * mktemplates: Do not use our own intltool-merge.
+  * intltool-merge: Drop.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 02 Jan 2023 14:10:51 +0100
+
+choose-mirror (2.116) unstable; urgency=medium
+
+  * intltool-merge: Fix emitting utf8 templates.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 01 Jan 2023 17:03:59 +0100
+
+choose-mirror (2.115) unstable; urgency=medium
+
+  * Team upload
+
+  [ Samuel Thibault ]
+  * Make gbp tag produce the right tag format
+
+  [ Updated translations ]
+  * Amharic (am.po) by Danial Behzadi
+  * Asturian (ast.po) by Danial Behzadi
+  * Bengali (bn.po) by Danial Behzadi
+  * Greek (el.po) by george kitsoukakis
+  * Persian (fa.po) by Danial Behzadi
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 31 Dec 2022 17:44:32 +0100
+
+choose-mirror (2.114) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Vietnamese (vi.po) by Trần Ngọc Quân
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 21 Aug 2022 17:03:25 +0200
+
+choose-mirror (2.113) unstable; urgency=medium
+
+  * Team upload
+
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Ukrainian (uk.po) by Taras Panchenko
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 03 Jun 2022 20:50:36 +0200
+
+choose-mirror (2.112) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Phil Hands ]
+  * Pull the mirror list from mirror-master.debian.org
+  * Sort deb.debian.org first, then ftp*.*.debian.org, then others.
+
+  [ Samuel Thibault ]
+  * Makefile: Inherit CFLAGS from environment.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 31 Oct 2021 16:23:14 +0100
+
 choose-mirror (2.111+parrot3) parrot-updates; urgency=medium
 
   * Update Parrot mirrors.

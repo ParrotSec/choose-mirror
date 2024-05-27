@@ -5,7 +5,8 @@ USE_FTP_MANUAL=1
 
 DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
 
-CFLAGS=-Wall -g -D_GNU_SOURCE -DARCH_TEXT='"$(DEB_HOST_ARCH)"'
+CFLAGS?=-g
+CFLAGS+=-Wall -D_GNU_SOURCE -DARCH_TEXT='"$(DEB_HOST_ARCH)"'
 templates=debian/choose-mirror-bin.templates-in
 
 ifeq (1,${USE_HTTP})
@@ -33,7 +34,7 @@ LIBS=-ldebconfclient -ldebian-installer
 STRIP=strip
 
 # Derivative distributions may want to change these.
-MIRRORLISTURL=https://salsa.debian.org/mirror-team/masterlist/raw/master/Mirrors.masterlist
+MIRRORLISTURL=https://mirror-master.debian.org/status/Mirrors.masterlist
 MASTERLIST=Mirrors.masterlist
 
 ifdef DEBUG

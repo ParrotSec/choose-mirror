@@ -18,14 +18,14 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2014-04-04 22:07+0100\n"
-"Last-Translator: Tegegne Tefera <tefera@mekuria.com>\n"
+"PO-Revision-Date: 2022-12-11 11:40+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
 "Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: n>1;\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #. Type: select
 #. Description
@@ -67,7 +67,7 @@ msgstr "የደቢያን ማኅደር መስተዋቶችን በመፈተሽ ላ�
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "መልቀቂያ ፋይሎችን በመጫን ላይ..."
+msgstr "መልቀቂያ ፋይሎችን በመጫን ላይ…"
 
 #. Type: boolean
 #. Description

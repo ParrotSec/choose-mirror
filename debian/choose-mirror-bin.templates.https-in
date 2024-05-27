@@ -13,7 +13,7 @@ __Choices: enter information manually
 # Default hardcoded to US for now.  If the use of HTTPS becomes popular then
 # we may want to do the same kind of language-specific default as we do in
 # debian/choose-mirror-bin.templates.http-in.
-Default: US
+Default: DE
 # :sl1:
 _Description: Parrot archive mirror country:
  The goal is to find a mirror of the Parrot archive that is close to you on the network -- be

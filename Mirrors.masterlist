@@ -11,14 +11,8 @@ Type: GeoDNS
 Archive-architecture: amd64 armhf arm64 i386
 Archive-http: /direct/parrot/
 Archive-https: /direct/parrot/
+Archive-rsync: parrot/
 Comment: Edge CDN hosted by Cloudflare
-
-Site: azure.deb.parrot.sh
-Type: GeoDNS
-Archive-architecture: amd64 armhf arm64 i386
-Archive-http: /parrot/
-Archive-https: /parrot/
-Comment: Edge CDN hosted by Azure
 
 Site: mirrors.aliyun.com
 Type: GeoDNS
@@ -34,12 +28,21 @@ Archive-http: /parrot/
 Archive-https: /parrot/
 Comment: Edge CDN hosted by BunnyCDN
 
-Site: gcore.deb.parrot.sh
-Type: GeoDNS
-Archive-architecture: amd64 armhf arm64 i386
+Site: sanfrancisco.mirror.parrot.sh
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Archive-https: /parrot/
-Comment: Edge CDN hosted by Gcore
+Archive-rsync: parrot/
+Country: US United States
+
+Site: newyork.mirror.parrot.sh
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Archive-rsync: parrot/
+Country: US United States
 
 Site: mirrors.mit.edu
 Type: leaf
@@ -107,6 +110,14 @@ Archive-http: /parrot/
 Archive-https: /parrot/
 Country: EC Ecuador
 
+
+Site: saopaulo.mirror.parrot.sh
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Country: BR Brazil
+
 Site: sft.if.usp.br
 Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
@@ -115,7 +126,13 @@ Country: BR Brazil
 
 
 
-
+Site: milan.mirror.parrot.sh
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Archive-rsync: parrot/
+Country: IT Italy
 
 Site: parrot.mirror.garr.it
 Type: leaf
@@ -144,6 +161,13 @@ Archive-https: /parrot/
 Country: FR France
 
 
+Site: frankfurt.mirror.parrot.sh
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Archive-rsync: parrot/
+Country: DE Germany
 
 Site: ftp.halifax.rwth-aachen.de
 Type: leaf
@@ -270,6 +294,14 @@ Archive-http: /
 Archive-https: /
 Country: UA Ukraine
 
+Site: johannesburg.mirror.parrot.sh
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Archive-rsync: parrot/
+Country: ZA South Africa
+
 
 
 Site: mirror.yandex.ru
@@ -312,6 +344,13 @@ Archive-https: /parrot/
 Country: TW Taiwan
 
 
+Site: singapore.mirror.parrot.sh
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Archive-rsync: parrot/
+Country: SG Singapore
 
 Site: mirror.0x.sg
 Type: leaf
@@ -319,6 +358,16 @@ Archive-architecture: amd64 arm64 armhf i386
 Archive-http: /parrot/
 Archive-https: /parrot/
 Country: SG Singapore
+
+
+
+Site: tokyo.mirror.parrot.sh
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Archive-rsync: parrot/
+Country: JP Japan
 
 
 
@@ -338,6 +387,14 @@ Type: leaf
 Archive-architecture: amd64 arm64 armhf i386
 Country: ID Indonesia
 
+
+Site: melbourne.mirror.parrot.sh
+Type: leaf
+Archive-architecture: amd64 arm64 armhf i386
+Archive-http: /parrot/
+Archive-https: /parrot/
+Archive-rsync: parrot/
+Country: AU Australia
 
 
 Site: mirrors.takeshi.nz

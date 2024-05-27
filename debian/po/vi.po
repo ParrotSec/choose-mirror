@@ -12,15 +12,15 @@
 # Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
 # Hai-Nam Nguyen <hainam@jcisio.com>, 2012
-# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2019-02-27 14:34+0700\n"
-"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"PO-Revision-Date: 2023-02-24 10:38+0000\n"
+"Last-Translator: tictactoe <phandinhminh@protonmail.ch>\n"
 "Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Kho nhân bản sai"
+msgstr "Kho bản sao sai"
 
 #. Type: error
 #. Description
@@ -273,7 +273,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Debian archive mirror:"
-msgstr "Nhân bản kho Debian:"
+msgstr "Kho liên kết mirror lưu trữ bản sao Debian:"
 
 #. Type: select
 #. Description
@@ -289,8 +289,8 @@ msgid ""
 "connection to you."
 msgstr ""
 "Hãy chọn một máy bản sao kho Debian. Bạn nên sử dụng máy bản sao trong quốc "
-"gia hay miền gần nhất, nếu bạn chưa biết máy bản sao nào có đường dẫn Mạng "
-"tốt nhất đến chỗ bạn."
+"gia hay miền gần nhất, nếu bạn chưa biết máy bản sao nào có đường dẫn "
+"Internet tốt nhất đến chỗ bạn."
 
 #. Type: select
 #. Description
@@ -333,7 +333,9 @@ msgstr "Hãy nhập tên máy của máy bản sao nơi mà sẽ tải Debian t�
 msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
-msgstr "Có thể ghi rõ một cổng xen kẽ có dạng chuẩn: [tên_máy]:[cổng]"
+msgstr ""
+"Một cổng thay thế có thể được chỉ định bằng cách sử dụng tiêu chuẩn format "
+"[tên hostname]:[cổng]."
 
 #. Type: string
 #. Description
@@ -358,7 +360,7 @@ msgstr "Hãy nhập thư mục chứa kho bản sao Debian."
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "Thông tin ủy nhiệm HTTP (để trống nếu không có):"
+msgstr "Thông tin máy ủy nhiệm HTTP (để trống nếu không có):"
 
 #. Type: string
 #. Description
@@ -368,8 +370,8 @@ msgid ""
 "If you need to use a HTTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"Nếu bạn cần phải sử dụng máy ủy nhiệm HTTP để kết nối đến Mạng, hãy nhập "
-"thông tin ủy nhiệm vào đây. Không thì bỏ rỗng."
+"Nếu bạn cần phải sử dụng máy ủy nhiệm HTTP để kết nối ra mạng bên ngoài, hãy "
+"nhập thông tin máy chủ ủy nhiệm vào đây. Không thì bỏ rỗng."
 
 #. Type: string
 #. Description
@@ -383,7 +385,7 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Hãy nhập thông tin ủy nhiệm có dạng chuẩn: <http://[[người_dùng][:"
+"Hãy nhập thông tin máy ủy nhiệm có dạng chuẩn: <http://[[người_dùng][:"
 "mật_khẩu]@]máy[:cổng]/>."
 
 #. Type: string
@@ -423,7 +425,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.sel-in:2002
 msgid "US[ Default value for ftp]"
-msgstr "JP"
+msgstr "VN"
 
 #. Type: select
 #. Description

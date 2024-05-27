@@ -113,7 +113,7 @@ for pofile in debian/po/*.po ; do
 done
 
 # and now we generate the templates file from all this
-PODEBCONF_LIB=. po2debconf --podir debian/pobuild debian/templates.tmp | \
+po2debconf --podir debian/pobuild debian/templates.tmp | \
     sed "s/\[ Default value for .*\]//" \
     >debian/choose-mirror-bin.templates
 
